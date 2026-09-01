@@ -1,6 +1,6 @@
 # Avis commercial
 
-SiLeMIO Stage Monitoring est un logiciel commercial propriétaire proposé au
+StageMon est un logiciel commercial propriétaire de la suite SiLeMIO, proposé au
 prix de 49 € TTC pour une licence permanente.
 
 La distribution publique contient les installeurs vérifiables par SHA-256, les
