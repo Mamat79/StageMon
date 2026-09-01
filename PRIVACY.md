@@ -5,7 +5,7 @@ sélections d’écoute, niveaux et paramètres audio.
 
 - aucun échantillon audio n’est envoyé vers un service cloud ;
 - la télécommande QR fonctionne sur le réseau local ;
-- son URL contient un jeton éphémère et un seul pilote est accepté à la fois ;
+- son URL contient un jeton éphémère et jusqu’à 24 contrôleurs simultanés sont acceptés, chacun avec une identité révocable séparément ;
 - aucune règle de pare-feu n’est créée ou acceptée silencieusement ;
 - l’adaptateur StageFlow LIVE lit uniquement le projet et le bail local ;
 - StageMon ne crée jamais le bail StageFlow LIVE ;
