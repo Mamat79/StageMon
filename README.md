@@ -13,6 +13,14 @@
   <a href="https://github.com/Mamat79/StageMon/releases/latest"><strong>⬇ Télécharger StageMon</strong></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMon"></a><br>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr.mp4">Présentation · FR</a>
+  · <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr.vtt">Sous-titres FR</a>
+  · <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-en.mp4">Presentation · EN</a>
+  · <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-en.vtt">EN captions</a>
+</p>
+
 ---
 
 ## StageMon, à quoi ça sert ?
