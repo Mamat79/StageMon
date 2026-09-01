@@ -27,7 +27,7 @@ L’objectif est simple : **retrouver immédiatement la bonne source dans la bon
 plateau**.
 
 StageMon fonctionne seul. Il peut également ouvrir un projet commun
-`.stageflow` et collaborer avec StageFlow, Save My Time, Dante Config Editor et
+`.stageflow` et collaborer avec StageFlow, [StageDesk — Save My Time](https://github.com/Mamat79/StageDesk), Dante Config Editor et
 StageMark. Chaque logiciel reste autonome : StageFlow est gratuit et
 facultatif.
 
@@ -102,8 +102,8 @@ immédiatement.
 StageMon sait travailler de deux façons :
 
 - **seul**, avec son propre projet `.stagemon.json` ;
-- **dans la suite**, avec le même dossier `.stageflow` que StageFlow, Save My
-  Time, Dante Config Editor et StageMark.
+- **dans la suite**, avec le même dossier `.stageflow` que StageFlow,
+  StageDesk — Save My Time, Dante Config Editor et StageMark.
 
 Dans un projet partagé, StageMon ne modifie que sa partie. Les données des
 autres logiciels sont conservées. Si le Mode LIVE est actif, les changements
@@ -119,14 +119,14 @@ et de retrouver sa télécommande dans le QR code unifié.
 
 StageMon peut créer ou importer le classeur Excel StageFlow V3. Vous choisissez
 le nombre de groupes et obtenez une feuille par groupe, ainsi qu’une feuille
-commune. Le même classeur peut ensuite être ouvert dans StageFlow ou Save My
-Time : il n’est donc pas nécessaire de commencer le projet dans un logiciel
+commune. Le même classeur peut ensuite être ouvert dans StageFlow ou
+StageDesk — Save My Time : il n’est donc pas nécessaire de commencer le projet dans un logiciel
 précis.
 
 ## Interface de la suite SiLeMIO
 
-StageMon reprend les repères visuels communs à StageFlow, StageMark, Save My
-Time et Dante Config Editor :
+StageMon reprend les repères visuels communs à StageFlow, StageMark,
+StageDesk — Save My Time et Dante Config Editor :
 
 - thème clair ou sombre ;
 - langue FR ou EN ;
@@ -168,7 +168,7 @@ fast source verification. It brings up to 256 inputs, two independent stereo
 monitors and multiple patches into one clear interface.
 
 StageMon can be used on its own with a `.stagemon.json` project. It can also
-open the same `.stageflow` project as StageFlow, Save My Time, Dante Config
+open the same `.stageflow` project as StageFlow, [StageDesk — Save My Time](https://github.com/Mamat79/StageDesk), Dante Config
 Editor and StageMark. StageFlow is free and optional; every application remains
 fully usable by itself.
 
