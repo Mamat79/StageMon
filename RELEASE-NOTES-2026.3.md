@@ -3,7 +3,7 @@
 ## LIVE réseau StageFlow
 
 - découverte locale du maître StageFlow par UDP multicast, puis association explicite par code à six chiffres ;
-- états visibles **Autonome / LIVE local / LIVE réseau**, avec nom de la session ;
+- états visibles **Projet StageMon / Projet StageFlow local / Session StageFlow LIVE**, avec nom de la session et point d’état accessible ;
 - réception et acquittement local des alertes éphémères de changement de label StageFlow ; le mode désactivé côté maître reste un état normal ;
 - commandes stables Clear Cue A/B, navigation de patch, audio et mute A/B acquittées vers StageFlow ;
 - écran commun **OSC · MIDI · Stream Deck**, avec les neuf mêmes identifiants en autonomie et en LIVE ;

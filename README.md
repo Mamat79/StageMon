@@ -108,17 +108,25 @@ immédiatement.
 
 ## Avec ou sans StageFlow
 
-StageMon sait travailler de deux façons :
+StageMon distingue trois parcours :
 
-- **seul**, avec son propre projet `.stagemon.json` ;
-- **dans la suite**, avec le même dossier `.stageflow` que les autres outils :
-  StageFlow, StageDesk, StageMark, Dante Config Editor et AutoCAD.
+- **Projet StageMon**, avec son propre fichier `.stagemon.json` ;
+- **Projet StageFlow local**, avec un dossier `.stageflow` accessible sur ce PC,
+  même lorsque l’application StageFlow n’est pas lancée ;
+- **Session StageFlow LIVE**, rejointe explicitement sur le réseau local avec
+  le code à six chiffres affiché par StageFlow.
 
-Dans un projet partagé, StageMon ne modifie que sa partie. Les données des
-autres logiciels sont conservées. Si le Mode LIVE est actif, les changements
-compatibles de groupe, labels, micros, notes et patchs peuvent être suivis en
-temps réel. Vous pouvez désactiver ce suivi à tout moment et continuer en mode
-autonome.
+Dans un Projet StageFlow local ou une Session StageFlow LIVE, StageMon ne
+modifie que sa partie. Les données des autres logiciels sont conservées. Le
+point d’état commun indique en texte et en couleur si StageMon est autonome,
+si une session est disponible, s’il est connecté et synchronisé, ou si la
+connexion est perdue. Vous pouvez quitter le LIVE à tout moment et continuer
+en mode autonome.
+
+Les alertes de labels StageFlow sont reçues par défaut lorsqu’elles sont
+activées par le maître. Elles restent visibles avec compteur, texte, heure et
+origine jusqu’à acquittement. Un interrupteur local permet de les couper dans
+StageMon seulement, sans créer de backlog ni gêner les autres postes.
 
 Depuis la console centrale StageFlow, il est possible d’ouvrir StageMon sur le
 projet courant, de voir son état de connexion, d’utiliser les raccourcis de cue
@@ -176,8 +184,10 @@ la latence et les niveaux.
 fast source verification. It brings up to 256 inputs, two independent stereo
 monitors and multiple patches into one clear interface.
 
-StageMon can be used on its own with a `.stagemon.json` project. It can also
-open the shared `.stageflow` project. The suite reference order is StageFlow,
+StageMon distinguishes three paths: a native **StageMon project**, a **Local
+StageFlow project** stored in a `.stageflow` folder available on this PC, and an
+explicitly joined **StageFlow LIVE session** on the local network. The suite
+reference order is StageFlow,
 [StageDesk](https://github.com/Mamat79/StageDesk), StageMark, StageMon,
 Dante Config Editor and AutoCAD. StageFlow is free and optional; every
 application remains fully usable by itself.
@@ -193,8 +203,11 @@ application remains fully usable by itself.
 - ASIO, WASAPI and WDM input/output choices.
 - Simulation, oscillators and looping music for preparation.
 - Local phone/tablet remote control through a QR code, with no cloud account.
-- Standalone projects and safe shared `.stageflow` projects.
-- StageFlow LIVE following that can be switched off at any time.
+- Native StageMon projects and safe Local StageFlow projects.
+- Explicit StageFlow LIVE sessions with a six-digit pairing code and a clean
+  return to standalone mode.
+- Label alerts enabled by default when requested by StageFlow, with persistent
+  local details, acknowledgement and a workstation-only silent switch.
 - StageFlow V3 Excel workbook creation and import with a configurable number
   of groups.
 - Light/dark theme, FR/EN language selector and built-in help.
