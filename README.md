@@ -92,8 +92,10 @@ une tablette connectés au même réseau local. Le contrôleur retrouve les mêm
 actions essentielles que dans StageMon, sans compte cloud et sans envoyer le
 projet sur Internet.
 
-Un seul appareil pilote à la fois. La session est temporaire, protégée par un
-jeton et peut être arrêtée immédiatement depuis l’ordinateur.
+Jusqu’à 24 téléphones ou tablettes peuvent piloter simultanément. Chaque
+appareil reçoit une identité et un bail séparés, révocables depuis l’ordinateur.
+La session est temporaire, protégée par un jeton et peut être arrêtée
+immédiatement.
 
 ## Avec ou sans StageFlow
 
@@ -144,7 +146,7 @@ StageMon.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2026.2-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2026.3-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -203,7 +205,7 @@ full StageMon remote in the unified QR portal.
 StageMon is available as a **€49 VAT-included perpetual licence** with a 30-day
 trial. Online and offline activation are supported.
 
-Download `StageMon-2026.2-Setup.exe` from the
+Download `StageMon-2026.3-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2026** from the
 desktop shortcut. Start in Simulation mode before qualifying your real audio
