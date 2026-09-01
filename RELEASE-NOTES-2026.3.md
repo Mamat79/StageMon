@@ -16,6 +16,7 @@ la cohérence graphique de la suite SiLeMIO.
 
 ## Nouveautés
 
+- les libellés et liens inter-suite adoptent le nom public **StageDesk — Save My Time** ; les identifiants techniques SMT et les anciens formats restent compatibles ;
 - petite icône `▦` discrète en haut à droite, commune à StageFlow et StageMark ;
 - barre de menus redessinée avec les mêmes déclencheurs sobres et panneaux arrondis que StageMark ;
 - fenêtre QR dédiée, bilingue et compatible avec les thèmes clair et sombre ;
