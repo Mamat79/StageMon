@@ -4,7 +4,9 @@
 
 - découverte locale du maître StageFlow par UDP multicast, puis association explicite par code à six chiffres ;
 - états visibles **Projet StageMon / Projet StageFlow local / Session StageFlow LIVE**, avec nom de la session et point d’état accessible ;
-- réception et acquittement local des alertes éphémères de changement de label StageFlow ; le mode désactivé côté maître reste un état normal ;
+- réception des alertes de labels activée par défaut à la jonction, avec ancien → nouveau, origine, heure, compteur et acquittement local persistant ;
+- interrupteur propre à StageMon : en mode désactivé, aucune alerte ne s’accumule ni ne réapparaît en retard, sans affecter le maître ou les autres postes ;
+- snapshots et assets adoptés explicitement dans un cache privé vérifié par taille et SHA-256, sans exposer le chemin distant ni modifier les domaines étrangers ;
 - commandes stables Clear Cue A/B, navigation de patch, audio et mute A/B acquittées vers StageFlow ;
 - écran commun **OSC · MIDI · Stream Deck**, avec les neuf mêmes identifiants en autonomie et en LIVE ;
 - écoute et retour OSC configurables, MIDI Learn et sortie MIDI de feedback ;
@@ -37,7 +39,7 @@ Les fonctions audio, les projets natifs `.stagemon.json`, les projets communs
 restent inchangés. La qualification du matériel audio demeure nécessaire avant
 une exploitation live critique.
 
-La recette Windows du 1er septembre 2026 compile sans avertissement, réussit
-les 80 tests automatisés et le benchmark 64/128/192/256 canaux sans allocation
+La recette Windows du 2 septembre 2026 compile sans avertissement, réussit
+les 86 tests automatisés et le benchmark 64/128/192/256 canaux sans allocation
 ni callback tardive. L’ouverture réelle de la fenêtre, ses quatre onglets et le
 démarrage/arrêt OSC ont aussi été contrôlés dans le binaire Release.
