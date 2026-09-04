@@ -5,3 +5,9 @@
 *.exe binary
 *.pdf binary
 *.png binary
+# Canonical suite documents and rollback archives must remain byte-identical.
+guides/** -text
+media/ecosystem/** -text
+archives/** -text
+StageMon-2027-Setup.exe.sha256 -text
+release-manifest.json -text
