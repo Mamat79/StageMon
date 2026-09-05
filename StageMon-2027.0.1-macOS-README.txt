@@ -1,0 +1,37 @@
+StageMon 2027.0.1 — macOS
+
+FR
+Glissez StageMon.app dans Applications. Choisissez le DMG AppleSilicon pour un
+Mac Apple Silicon, Intel pour un Mac Intel. Le runtime est inclus.
+
+La signature actuelle est ad hoc : ce paquet n'est PAS notarisé par Apple.
+macOS peut demander une autorisation dans Confidentialité et sécurité à la
+première ouverture. Ne désactivez pas Gatekeeper globalement.
+
+Le premier démarrage audio demande l'accès au microphone. Utilisez une carte
+duplex CoreAudio ou un périphérique agrégé déjà configuré dans Configuration
+audio et MIDI. StageMon ne modifie pas les réglages système et ne crée pas
+d'agrégat automatiquement. Vérifiez le patch des sorties avant de démarrer.
+
+Le Trousseau du compte Mac protège l'identité d'installation. Une licence
+Windows copiée ne transfère pas sa clé privée : activez ce Mac normalement,
+dans la limite du nombre d'installations de votre licence. Les droits et
+tarifs sont identiques ; le service ne demande aucun achat Apple supplémentaire.
+
+EN
+Drag StageMon.app into Applications. Select AppleSilicon for Apple Silicon
+Macs, Intel for Intel Macs. The runtime is included.
+
+The current signature is ad hoc; this package is NOT notarized by Apple.
+macOS may require first-launch approval in Privacy & Security. Do not
+disable Gatekeeper globally.
+
+Starting audio requests microphone access. Use a duplex CoreAudio device
+or a previously configured aggregate in Audio MIDI Setup. StageMon does
+not change system settings or create an aggregate. Check output routing
+before starting audio.
+
+Your Mac account's Keychain protects the installation identity. Copying
+a Windows license state does not transfer its private key. Activate this
+Mac normally within your license's installation limit. Rights and prices
+are unchanged.

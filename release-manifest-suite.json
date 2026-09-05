@@ -1,0 +1,111 @@
+{
+  "product": "StageMon",
+  "version": "2027.0.1",
+  "releaseTag": "v2027.0.1",
+  "productSourceCommit": "e8ee12f6dad20beeb86bb88c9c15373d0457d72c",
+  "macBuildSourceCommit": "5f49ceca34ca6ab13d610c4efdfd5dd4130c1a0a",
+  "windows": {
+    "unchangedAcceptedInstaller": true,
+    "installerSha256": "8474EDECC6066C31AB775E9DF2B249C7B2701793A27C9C2EEC69CA489AD65C52",
+    "sourceCommit": "e8ee12f6dad20beeb86bb88c9c15373d0457d72c",
+    "locallyInstalled": true,
+    "localVisualAcceptance": "Unconfirmed: white capture despite complete accessibility tree; no new Windows GUI test in the Mac slot.",
+    "fileVersion": "2027.0.1.0"
+  },
+  "mac": {
+    "run": 33937517112,
+    "architectures": [
+      "osx-arm64",
+      "osx-x64"
+    ],
+    "nativeCapturesReviewed": true,
+    "conclusion": "success",
+    "snapshotFinalTextReviewed": "Ma scène UI",
+    "notarized": false,
+    "hardwareValidated": false
+  },
+  "guidesBundle": "2027.1",
+  "assets": [
+    {
+      "name": "canonical-suite-guides-manifest.json",
+      "bytes": 3032,
+      "sha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4"
+    },
+    {
+      "name": "Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 405675,
+      "sha256": "D9745A119A6112D6E13AD0783F4AED928819ED49C101846C09DE391DA2E0B110"
+    },
+    {
+      "name": "release-manifest-macos.json",
+      "bytes": 1603,
+      "sha256": "E6DA2DA2C500C7698962A0A670AB42558CDDCF57DDE32563757187B1D9AEE007"
+    },
+    {
+      "name": "release-manifest.json",
+      "bytes": 2026,
+      "sha256": "18BF206B43AD060914F36393188CB14D462F8277E545B4451CF871DDB5C929E3"
+    },
+    {
+      "name": "RELEASE-NOTES-2027.0.1.md",
+      "bytes": 3907,
+      "sha256": "F0C46CC070D0CD0DBF3A28B2244345CB07FE6873769B51CBE01F49E9B5101117"
+    },
+    {
+      "name": "SHA256SUMS-macos.txt",
+      "bytes": 623,
+      "sha256": "AAC15E45E1DE2C2DEC88402B5ED51368C4A4095E42CDACB4A82B80DF8DB94363"
+    },
+    {
+      "name": "SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363267,
+      "sha256": "ADAB35A01BB06BCF4E715B6EFAA9701C9BD73F753C53806AD6AFEB985B670B71"
+    },
+    {
+      "name": "StageMon-2027.0.1-macOS-AppleSilicon.dmg",
+      "bytes": 66908571,
+      "sha256": "EA2E1894E635D029A44B74EA7D93D59433DCC9FD59D41E3A2CCDCC9B1A915FB9"
+    },
+    {
+      "name": "StageMon-2027.0.1-macOS-AppleSilicon.dmg.sha256",
+      "bytes": 107,
+      "sha256": "7FB89623C7E84131305E66580B817AE890AED00BBA8D6A85120D03AC70764945"
+    },
+    {
+      "name": "StageMon-2027.0.1-macOS-Intel.dmg",
+      "bytes": 68183574,
+      "sha256": "DA5D0A14597BE0E230C2EA4057A6A6CF8A9959AECDF481DB6DA001502838F9EF"
+    },
+    {
+      "name": "StageMon-2027.0.1-macOS-Intel.dmg.sha256",
+      "bytes": 100,
+      "sha256": "824B709013643E781588C63C9E556A70155725CF47AAD2941D0C3FDDCC2CF005"
+    },
+    {
+      "name": "StageMon-2027.0.1-macOS-README.txt",
+      "bytes": 1811,
+      "sha256": "EDFA6D8798059E18D9F24CECA40AE695ECAB28A34C2C4729A348D12120A671E0"
+    },
+    {
+      "name": "StageMon-2027.0.1-Setup.exe",
+      "bytes": 58581686,
+      "sha256": "8474EDECC6066C31AB775E9DF2B249C7B2701793A27C9C2EEC69CA489AD65C52"
+    },
+    {
+      "name": "StageMon-2027.0.1-Setup.exe.sha256",
+      "bytes": 95,
+      "sha256": "85B071EC7B0BCFAFF9C02C9CB5ECE310CCBDDD40235331A026757EE42D74BF39"
+    },
+    {
+      "name": "StageMon-Guide-EN.pdf",
+      "bytes": 51860,
+      "sha256": "CA4603AFE54FBF296FB7B946CA4FB72B9F8A7734BC23AF0985D85CAC9682EFF0"
+    },
+    {
+      "name": "StageMon-Guide-FR.pdf",
+      "bytes": 53760,
+      "sha256": "1EDBBBE0BB45CCF942F559C33FB14F4223C6DA8BCA8A6BBA68FA906C974ADC40"
+    }
+  ],
+  "scope": "Public binaries and documentation only. Private QA profiles, archives and source files excluded."
+}

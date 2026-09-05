@@ -1,0 +1,45 @@
+{
+  "version": "2027.0.1",
+  "productSourceCommit": "e8ee12f6dad20beeb86bb88c9c15373d0457d72c",
+  "buildSourceCommit": "5f49ceca34ca6ab13d610c4efdfd5dd4130c1a0a",
+  "productSourceTree": "73dfd3a757d90007b4a6b617ea0046ab2212e62f",
+  "qaOnlyBuildChange": true,
+  "nativeAcceptanceRun": 33937517112,
+  "platforms": [
+    {
+      "Rid": "osx-arm64",
+      "Name": "StageMon-2027.0.1-macOS-AppleSilicon.dmg",
+      "Bytes": 66908571,
+      "Sha256": "EA2E1894E635D029A44B74EA7D93D59433DCC9FD59D41E3A2CCDCC9B1A915FB9"
+    },
+    {
+      "Rid": "osx-x64",
+      "Name": "StageMon-2027.0.1-macOS-Intel.dmg",
+      "Bytes": 68183574,
+      "Sha256": "DA5D0A14597BE0E230C2EA4057A6A6CF8A9959AECDF481DB6DA001502838F9EF"
+    }
+  ],
+  "minimumDeclaredMacOS": "12.0",
+  "nativeTestedMacOS": "15",
+  "signature": "ad-hoc",
+  "developerIdSigned": false,
+  "notarized": false,
+  "nativeAppOpenedFromReadOnlyDmg": true,
+  "nativeAppClosedCleanly": true,
+  "nativeMonitorEditorApplied": true,
+  "keychainEphemeralRoundTrip": true,
+  "ephemeralKeyRemoved": true,
+  "perArchitecture": {
+    "protocolTestsPassed": 91,
+    "componentDistinctChecks": 89,
+    "midiTestsPassed": 3,
+    "snapshotFinalTextVisuallyReviewed": "Ma scène UI",
+    "nativeDesktopAndMonitorEditorVisuallyReviewed": true,
+    "componentAssertionsPassed": 106,
+    "individualFVisuallyReviewed": true
+  },
+  "hardwareAudioValidated": false,
+  "hardwareHfValidated": false,
+  "commercialActivationUsedForQa": false,
+  "guideManifestSha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4"
+}

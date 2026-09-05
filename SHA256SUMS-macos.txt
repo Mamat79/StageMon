@@ -1,0 +1,6 @@
+e6da2da2c500c7698962a0a670ab42558cddcf57dde32563757187b1d9aee007  release-manifest-macos.json
+ea2e1894e635d029a44b74ea7d93d59433dcc9fd59d41e3a2ccdcc9b1a915fb9  StageMon-2027.0.1-macOS-AppleSilicon.dmg
+7fb89623c7e84131305e66580b817ae890aed00bba8d6a85120d03ac70764945  StageMon-2027.0.1-macOS-AppleSilicon.dmg.sha256
+da5d0a14597be0e230c2ea4057a6a6cf8a9959aecdf481db6da001502838f9ef  StageMon-2027.0.1-macOS-Intel.dmg
+824b709013643e781588c63c9e556a70155725cf47aad2941d0c3fddcc2cf005  StageMon-2027.0.1-macOS-Intel.dmg.sha256
+edfa6d8798059e18d9f24ceca40ae695ecab28a34c2c4729a348d12120a671e0  StageMon-2027.0.1-macOS-README.txt

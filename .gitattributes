@@ -11,3 +11,10 @@ media/ecosystem/** -text
 archives/** -text
 StageMon-2027-Setup.exe.sha256 -text
 release-manifest.json -text
+# Preserve the reviewed release assets and their checksums byte-for-byte.
+*.dmg binary
+*.sha256 -text
+release-manifest-macos.json -text
+release-manifest-suite.json -text
+RELEASE-NOTES-2027.0.1.md -text
+StageMon-2027.0.1-macOS-README.txt -text

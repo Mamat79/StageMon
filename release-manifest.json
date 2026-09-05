@@ -1,40 +1,40 @@
 {
-  "version": "2027",
-  "fileVersion": "2027.0.0.0",
+  "version": "2027.0.1",
+  "fileVersion": "2027.0.1.0",
   "platform": "windows-x64",
-  "sourceCommit": "babfef33437fc2a4eaea9fdec7bf0eea4a96b4fb",
+  "sourceCommit": "e8ee12f6dad20beeb86bb88c9c15373d0457d72c",
   "testsRunByBuild": true,
-  "guideManifestSha256": "31C6CD028AC40AACA3F2B6D7BEBBBF43BF8A2613D3BC2A2535FD383D85B2AFEB",
+  "guideManifestSha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4",
   "installer": {
-    "name": "StageMon-2027-Setup.exe",
-    "bytes": 58097311,
-    "sha256": "D0EE8911248E9AAB4DAF6975F362945C7A37F1ED104341046186CB3A486809CF"
+    "name": "StageMon-2027.0.1-Setup.exe",
+    "bytes": 58581686,
+    "sha256": "8474EDECC6066C31AB775E9DF2B249C7B2701793A27C9C2EEC69CA489AD65C52"
   },
   "installedPayload": [
     {
       "path": "docs/guides/canonical-suite-guides-manifest.json",
-      "bytes": 2251,
-      "sha256": "31C6CD028AC40AACA3F2B6D7BEBBBF43BF8A2613D3BC2A2535FD383D85B2AFEB"
-    },
-    {
-      "path": "docs/guides/GUIDE-SUITE-FR.md",
-      "bytes": 17978,
-      "sha256": "FA4C304B2ABC9616CBA2A6554A4F42EB1A9EE380FE081704D7ECC5F01BF72E20"
+      "bytes": 3032,
+      "sha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4"
     },
     {
       "path": "docs/guides/Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 131153,
-      "sha256": "B25F32C9AD06735AC21727508A1D222FBB0DEEE2B487BA60BC88B16BE0907D71"
+      "bytes": 405675,
+      "sha256": "D9745A119A6112D6E13AD0783F4AED928819ED49C101846C09DE391DA2E0B110"
     },
     {
       "path": "docs/guides/SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 127610,
-      "sha256": "CFA7D7E888E91AEDE41954AB1417B1CB71DEE1F857AC3AEE218D89560D73A656"
+      "bytes": 363267,
+      "sha256": "ADAB35A01BB06BCF4E715B6EFAA9701C9BD73F753C53806AD6AFEB985B670B71"
     },
     {
-      "path": "docs/guides/SUITE-GUIDE-EN.md",
-      "bytes": 15901,
-      "sha256": "CFACDB8F411D59A64ED67B13FC1F0022345B9BAE4C26AFD413275CCEB73D807A"
+      "path": "docs/guides/StageMon-Guide-EN.pdf",
+      "bytes": 51860,
+      "sha256": "CA4603AFE54FBF296FB7B946CA4FB72B9F8A7734BC23AF0985D85CAC9682EFF0"
+    },
+    {
+      "path": "docs/guides/StageMon-Guide-FR.pdf",
+      "bytes": 53760,
+      "sha256": "1EDBBBE0BB45CCF942F559C33FB14F4223C6DA8BCA8A6BBA68FA906C974ADC40"
     },
     {
       "path": "docs/LIVE-FOLLOWING.md",
@@ -42,39 +42,9 @@
       "sha256": "5776BCD5E658CA71B6FEDC38793D8C8FA774459B46C229DA50F4086F080BBCF8"
     },
     {
-      "path": "docs/media/ecosystem/suite-architecture-en.svg",
-      "bytes": 7462,
-      "sha256": "3E94ED8818DE005BB1AF78DA8007A92811CE40CBA159FB734533AFDC452782C6"
-    },
-    {
-      "path": "docs/media/ecosystem/suite-architecture-fr.svg",
-      "bytes": 7553,
-      "sha256": "2FFDF203E9054358CC837963171CE1E9463C6955DED5C90C8702D838DD330B2A"
-    },
-    {
-      "path": "docs/media/ecosystem/suite-connections-en.svg",
-      "bytes": 5500,
-      "sha256": "8C591C6F30BA6D026D14441B5CF07FB4A9ED35E926FCFD2E1554D346307426B9"
-    },
-    {
-      "path": "docs/media/ecosystem/suite-connections-fr.svg",
-      "bytes": 5556,
-      "sha256": "9D392EADCB2E75D0049DFB497202D41A8B205AD82E7950CAFA0ADA2025BDED0D"
-    },
-    {
-      "path": "docs/media/ecosystem/suite-workflow-en.svg",
-      "bytes": 6271,
-      "sha256": "8DB5AAAAEE81FF4C4F5D392878BF59832579A43E1F88B889C9B13D1FC2C42E7B"
-    },
-    {
-      "path": "docs/media/ecosystem/suite-workflow-fr.svg",
-      "bytes": 6339,
-      "sha256": "BBEB222C76C51BCFE93DD3F743BF614EADC655CBB9731EC119DD2B338E74E2FD"
-    },
-    {
-      "path": "docs/RELEASE-NOTES-2027.md",
-      "bytes": 4550,
-      "sha256": "12DB82987CD7F0239D7A56BCF396497A0583FB1A50502777C28BCEBBFAC88BC4"
+      "path": "docs/RELEASE-NOTES-2027.0.1.md",
+      "bytes": 3907,
+      "sha256": "F0C46CC070D0CD0DBF3A28B2244345CB07FE6873769B51CBE01F49E9B5101117"
     },
     {
       "path": "stage-monitoring.ico",
@@ -83,8 +53,8 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 199692795,
-      "sha256": "C90B4C8083C80A43DFBB3BB1FA023526B2AAB824B3F54B6C3FAC2390F2CA47BD"
+      "bytes": 199766523,
+      "sha256": "8D022B7AA467CE3A1372265DC893F8CD559DD838527EE615EC426A423B9150FB"
     }
   ]
 }

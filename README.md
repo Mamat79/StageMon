@@ -6,15 +6,19 @@
 
 <p align="center">
   <strong>Deux à six écoutes, des snapshots CUE, un contrôle clair pour le line-check et les changements de plateau.</strong><br>
-  Hors ligne · Français / English · Windows
+  Autonome · Français / English · Windows et macOS
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027/StageMon-2027-Setup.exe"><strong>⬇ Télécharger StageMon 2027 · Windows x64</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-Setup.exe"><strong>Windows x64</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-Intel.dmg"><strong>Mac Intel</strong></a>
 </p>
 
-Version actuelle : **2027**, binaire **2027.0.0.0**.
-[Nouveautés FR/EN](RELEASE-NOTES-2027.md) ·
+Version actuelle : **2027.0.1**, binaire Windows **2027.0.1.0**.
+[Nouveautés](RELEASE-NOTES-2027.0.1.md) ·
+[Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
+[StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
 [Guide PDF français](guides/Guide-Suite-SiLeMIO-FR.pdf) ·
 [English PDF guide](guides/SiLeMIO-Suite-Guide-EN.pdf).
 
@@ -36,7 +40,7 @@ StageMon est une matrice d’écoute conçue pour les techniciens son, les équi
 de plateau et les régies qui doivent vérifier rapidement de nombreuses sources.
 Il regroupe jusqu’à 256 entrées, deux écoutes indépendantes par défaut et jusqu'à
 six en option, avec plusieurs patchs dans une interface lisible, utilisable sur
-un seul ordinateur Windows.
+un seul ordinateur Windows ou Mac.
 
 L’objectif est simple : **retrouver immédiatement la bonne source dans la bonne
 écoute, sans reconstruire la matrice à chaque changement de groupe ou de
@@ -73,7 +77,7 @@ groupe sans perdre ses réglages de sécurité.
 - Circuits C à F optionnels dans **Patch sorties → Nombre de circuits monitoring**.
   Ils restent invisibles tant qu'ils ne sont pas ajoutés et n'ont aucune sortie
   physique affectée automatiquement.
-- Noms et couleurs propres à chaque circuit.
+- Noms, couleurs et plafonds de niveau propres à chaque circuit.
 - Plusieurs sources simultanées par écoute.
 - Mode exclusif pour écouter une seule cue à la fois.
 - Mode additif pour construire une écoute avec plusieurs sources.
@@ -112,7 +116,7 @@ une source ou un circuit manque, le rappel est refusé sans changement partiel.
 
 **Enregistrez le projet StageMon ou StageFlow local pour conserver les snapshots
 sur disque.** Le classeur Excel de patch n'est pas modifié. La gestion et le
-rappel des snapshots se trouvent dans l'application Windows ; aucune commande
+rappel des snapshots se trouvent dans les applications Windows et Mac ; aucune commande
 de snapshot mobile, OSC ou Stream Deck n'est annoncée dans cette édition.
 
 ## Tester avant de raccorder le plateau
@@ -123,9 +127,10 @@ chemin d'écoute avant d'utiliser les entrées réelles. Le choix d'un test ne
 démarre pas l'audio ; un témoin TEST reste visible. Les panneaux de test ne
 restent pas en permanence sous les monitors.
 
-Pour l’exploitation, l’entrée et la sortie peuvent utiliser ASIO, WASAPI ou
+Sur Windows, l’entrée et la sortie peuvent utiliser ASIO, WASAPI ou
 WDM. Les pilotes et les cartes d’entrée/sortie se choisissent séparément lorsque
-le matériel l’exige.
+le matériel l’exige. Sur Mac, StageMon utilise CoreAudio : une interface duplex
+ou un périphérique agrégé configuré dans Configuration audio et MIDI.
 
 ## Contrôler depuis le plateau
 
@@ -144,7 +149,7 @@ immédiatement.
 StageMon distingue trois parcours :
 
 - **Projet StageMon**, avec son propre fichier `.stagemon.json` ;
-- **Projet StageFlow local**, avec un dossier `.stageflow` accessible sur ce PC,
+- **Projet StageFlow local**, avec un dossier `.stageflow` accessible sur cet ordinateur,
   même lorsque l’application StageFlow n’est pas lancée ;
 - **Session StageFlow LIVE**, rejointe explicitement sur le réseau local avec
   le code à six chiffres affiché par StageFlow.
@@ -189,14 +194,15 @@ StageMon, Dante Config Editor et AutoCAD :
 
 La licence permanente de StageMon coûte **49 € TTC**. Un essai de 30 jours
 permet de vérifier l’interface et le fonctionnement avec votre configuration.
-L’activation peut être réalisée en ligne ou hors ligne.
+L'activation se fait depuis l'application, dans la limite des installations
+autorisées par votre licence. Les conditions commerciales sont inchangées.
 
 StageFlow reste entièrement gratuit et n’est jamais nécessaire pour utiliser
 StageMon.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2027-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2027.0.1-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -210,7 +216,27 @@ la latence et les niveaux.
 L'installeur ne ferme pas StageMon et ne lance pas l'audio. Le nouveau raccourci
 est vérifié avant le retrait des anciens raccourcis StageMon reconnus. Les projets,
 réglages et licences existants sont préservés. Les anciennes releases restent
-disponibles pour retour arrière ; macOS n'est pas livré comme application commerciale.
+disponibles pour retour arrière.
+
+## Installation macOS
+
+Téléchargez le DMG **AppleSilicon** pour un Mac Apple Silicon ou **Intel** pour
+un Mac Intel, puis glissez `StageMon.app` dans Applications. Le runtime est inclus.
+Le minimum déclaré est macOS 12 ; cette livraison a été vérifiée nativement
+sur macOS 15, sur les deux architectures.
+
+Les applications sont signées **ad hoc**, sans Developer ID ni notarisation Apple.
+Un avertissement peut donc apparaître à la première ouverture. Ne désactivez
+pas Gatekeeper globalement. Consultez la [notice Mac FR/EN](https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-README.txt).
+
+Le démarrage audio reste volontaire et demande l'accès au microphone. Vérifiez
+les niveaux et les sorties physiques avant de démarrer. Le Trousseau protège
+l'identité d'installation : copier le fichier de licence Windows ne transfère
+pas la clé privée vers le Mac.
+
+Les tests logiciels et le démarrage natif ne constituent pas une qualification
+de votre carte audio, d'un téléphone réel, du réseau de spectacle ou du matériel
+HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur réel.
 
 ---
 
@@ -218,12 +244,12 @@ disponibles pour retour arrière ; macOS n'est pas livré comme application comm
 
 ## English
 
-**StageMon** is a Windows monitoring matrix for line checks, stage changes and
+**StageMon** is a Windows and macOS monitoring matrix for line checks, stage changes and
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
 StageMon distinguishes three paths: a native **StageMon project**, a **Local
-StageFlow project** stored in a `.stageflow` folder available on this PC, and an
+StageFlow project** stored in a `.stageflow` folder available on this computer, and an
 explicitly joined **StageFlow LIVE session** on the local network. The suite
 reference order is StageFlow,
 [StageDesk](https://github.com/Mamat79/StageDesk), StageMark, StageMon,
@@ -234,13 +260,13 @@ application remains fully usable by itself.
 
 - Up to 256 inputs; A/B by default, optionally C–F in Output patch, each mono or stereo.
 - Unconfigured circuits remain hidden; new circuits start without physical output assignments.
-- Named and coloured circuits, A/B LINK and click-again-to-stop CUE buttons.
+- Circuit names, colours and level ceilings, A/B LINK and click-again-to-stop CUE buttons.
 - Exclusive or additive cue selection.
 - Persistent sources that remain audible while patches change.
 - Previous, next, clear A, clear B and global clear controls.
 - Per-monitor level, mute, stereo routing and mono fold-down.
 - Instant patch changes without restarting the audio engine.
-- ASIO, WASAPI and WDM input/output choices.
+- ASIO, WASAPI and WDM on Windows; CoreAudio on Mac.
 - On-demand oscillators and looping music in Tools, with a discreet TEST indicator.
 - Local phone/tablet remote control through a QR code, with no cloud account.
 - Native StageMon projects and safe Local StageFlow projects.
@@ -263,7 +289,7 @@ Snapshots remember the active patch, CUE/Always selections, exclusive/additive
 mode and LINK. They never recall levels, mutes, devices or physical outputs and
 do not start audio. Missing sources, circuits or patches cause a safe, whole-recall
 refusal. **Save the native StageMon or local StageFlow project to keep snapshots
-on disk.** No Excel patch is changed. Snapshot management is in the Windows app;
+on disk.** No Excel patch is changed. Snapshot management is in the Windows and Mac apps;
 no mobile, OSC or Stream Deck snapshot commands are advertised in this edition.
 
 ### Typical workflow
@@ -280,15 +306,27 @@ full StageMon remote in the unified QR portal.
 ### Price and installation
 
 StageMon is available as a **€49 VAT-included perpetual licence** with a 30-day
-trial. Online and offline activation are supported.
+trial. Activate from the application within your licence's installation limit.
+Commercial terms are unchanged.
 
-Download `StageMon-2027-Setup.exe` from the
+Download `StageMon-2027.0.1-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
 audio interface, drivers, channels, sample rate, latency and levels outside production.
-Software tests are not hardware or physical-phone validation. No commercial Mac
-application is shipped. Existing projects, settings and licensing are preserved.
+Software tests are not hardware or physical-phone validation. Existing projects,
+settings and licensing are preserved.
+
+On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` into
+Applications. The runtime is included. macOS 12 is the declared minimum; native
+startup was verified on macOS 15 on both architectures. Packages are **ad-hoc
+signed, not Apple-notarized**, and may show a first-launch warning. Do not disable
+Gatekeeper globally. Read the [Mac installation notes](https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-README.txt).
+
+Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
+starting audio remains explicit and requests microphone access. Keychain protects
+the installation identity: copying a Windows licence file does not transfer its
+private key. Real audio/HF devices and show networks still need on-site validation.
 
 ---
 
