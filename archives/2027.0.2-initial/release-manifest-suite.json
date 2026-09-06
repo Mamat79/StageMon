@@ -1,0 +1,122 @@
+{
+  "product": "StageMon",
+  "version": "2027.0.2",
+  "releaseTag": "v2027.0.2",
+  "productSourceCommit": "cc1b5c9af8c1a840e6e73e94ddfaad4b7eaf4cce",
+  "windows": {
+    "version": "2027.0.2",
+    "fileVersion": "2027.0.2.0",
+    "installerSha256": "E6647CD0DC8DFE2874EB9163F690569DEA00ACC53C970476FE9E3B7B48BCB7DC",
+    "downloadUrl": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.2/StageMon-2027.0.2-Setup.exe",
+    "nativeAcceptance": "Passed: FR/EN, Light/Dark, keyboard focus, compact EN Dark; original native images supplied.",
+    "frozenExecutableReused": true,
+    "physicalAudioValidated": false,
+    "physicalNetworkValidated": false,
+    "physicalPhoneValidated": false
+  },
+  "mac": {
+    "version": "2027.0.1",
+    "releaseTag": "v2027.0.1",
+    "unchanged": true,
+    "newWindowsChangesIncluded": false,
+    "nativeAcceptanceRun": 33937517112,
+    "signature": "ad-hoc",
+    "notarized": false,
+    "hardwareValidated": false,
+    "downloads": [
+      {
+        "architecture": "osx-arm64",
+        "name": "StageMon-2027.0.1-macOS-AppleSilicon.dmg",
+        "bytes": 66908571,
+        "sha256": "EA2E1894E635D029A44B74EA7D93D59433DCC9FD59D41E3A2CCDCC9B1A915FB9",
+        "url": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-AppleSilicon.dmg"
+      },
+      {
+        "architecture": "osx-x64",
+        "name": "StageMon-2027.0.1-macOS-Intel.dmg",
+        "bytes": 68183574,
+        "sha256": "DA5D0A14597BE0E230C2EA4057A6A6CF8A9959AECDF481DB6DA001502838F9EF",
+        "url": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-Intel.dmg"
+      }
+    ]
+  },
+  "guidesBundle": "2027.2",
+  "assets": [
+    {
+      "name": "canonical-suite-guides-manifest.json",
+      "bytes": 3032,
+      "sha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9"
+    },
+    {
+      "name": "Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 405754,
+      "sha256": "E438D52A1012E2C91F9AAF935DC9DB16EE77E9989EDA692A26A27AC9BF75FC49"
+    },
+    {
+      "name": "HF-PROTOCOL-SCOPE.md",
+      "bytes": 6910,
+      "sha256": "F3564663F0798383FD223497EA4413BA3A41E36C4FD6EB16CDC76E5687FAAC19"
+    },
+    {
+      "name": "PLATFORM-CONTROL-SCOPE-2027.md",
+      "bytes": 5259,
+      "sha256": "C06D9281C908BD87FCB28F4B2E9D02E0B1CCCA7955D916E9B60E1ACC384FD828"
+    },
+    {
+      "name": "release-manifest.json",
+      "bytes": 3341,
+      "sha256": "32AC1DE961A08A459C913BB4BBC0D04CBB997E58EB68228DEA20F831AD2FD6CF"
+    },
+    {
+      "name": "RELEASE-NOTES-2027.0.2.md",
+      "bytes": 5258,
+      "sha256": "B1A5B08E9A23C09CE6D2A310B17A38FEC0755E0704689CCF0032F7A134443104"
+    },
+    {
+      "name": "SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363318,
+      "sha256": "104D554C08F886032345EEF7EC98CFBF2DDDB283D6EDEE55E044CB3206953DBC"
+    },
+    {
+      "name": "StageMon-2027.0.2-Setup.exe",
+      "bytes": 58588760,
+      "sha256": "E6647CD0DC8DFE2874EB9163F690569DEA00ACC53C970476FE9E3B7B48BCB7DC"
+    },
+    {
+      "name": "StageMon-2027.0.2-Setup.exe.sha256",
+      "bytes": 95,
+      "sha256": "9C7C9A5B870D3111B09A860F92A3809FD8947D3273ADDEE5CAEC5C715C6C1140"
+    },
+    {
+      "name": "StageMon-2027.0.2-Windows-en-dark.jpg",
+      "bytes": 173884,
+      "sha256": "F520A5405525DAF95A830617FDCADBF387E07F448B68ACA779B93862D9359DF1"
+    },
+    {
+      "name": "StageMon-2027.0.2-Windows-en-light.jpg",
+      "bytes": 170783,
+      "sha256": "E5A3CE11F53233056548AF6BCECE099F1CF70A3BC425A008333EB1E5E45BD65C"
+    },
+    {
+      "name": "StageMon-2027.0.2-Windows-fr-dark.jpg",
+      "bytes": 176401,
+      "sha256": "58619F252B68C38A5D8D52D3B17BFC3F17535135ACDD81B8B36B89E65DC2B405"
+    },
+    {
+      "name": "StageMon-2027.0.2-Windows-fr-light.jpg",
+      "bytes": 172367,
+      "sha256": "E528634A8D17FA1C7B4FCB87AA1C406D683918814FF6E5E4947B463AE236A2CA"
+    },
+    {
+      "name": "StageMon-Guide-EN.pdf",
+      "bytes": 51860,
+      "sha256": "CA4603AFE54FBF296FB7B946CA4FB72B9F8A7734BC23AF0985D85CAC9682EFF0"
+    },
+    {
+      "name": "StageMon-Guide-FR.pdf",
+      "bytes": 53760,
+      "sha256": "1EDBBBE0BB45CCF942F559C33FB14F4223C6DA8BCA8A6BBA68FA906C974ADC40"
+    }
+  ],
+  "scope": "Public binaries, notices and unedited native demo images only. Windows 2027.0.2; Mac 2027.0.1 unchanged. No private profiles, source files or raw QA receipts."
+}

@@ -15,7 +15,8 @@
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-Intel.dmg"><strong>Mac Intel</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.0.2** (binaire **2027.0.2.0**) et
+Versions actuelles : **Windows 2027.0.2**, build **connections-20260906-r2**
+(binaire **2027.0.2.0**, 6 septembre 2026), et
 **macOS 2027.0.1** (Apple Silicon et Intel, paquets inchangés).
 [Nouveautés Windows](RELEASE-NOTES-2027.0.2.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
@@ -26,7 +27,7 @@ Versions actuelles : **Windows 2027.0.2** (binaire **2027.0.2.0**) et
 
 <p align="center">
   <img src="media/StageMon-2027.0.2-Windows-fr-dark.jpg" width="1000" alt="StageMon Windows 2027.0.2 : matrice CUE, bandeau commun et deux monitors, thème sombre"><br>
-  Capture native Windows 2027.0.2 · projet de démonstration · moteur arrêté
+  Capture native de la livraison initiale Windows 2027.0.2 · démonstration · moteur arrêté
 </p>
 
 [Thème clair FR](media/StageMon-2027.0.2-Windows-fr-light.jpg) ·
@@ -34,6 +35,12 @@ Versions actuelles : **Windows 2027.0.2** (binaire **2027.0.2.0**) et
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
 ### Nouveautés Windows 2027.0.2
+
+Le build **connections-20260906-r2** unifie le centre **Connexion StageFlow** :
+l’icône téléphone ouvre désormais la rubrique Télécommande du même centre.
+Projet autonome, projet StageFlow local, session LIVE et télécommande ont des
+états distincts. StageFlow reçoit l’état réel du service ; un service arrêté
+n’est plus annoncé disponible. Ouvrir le centre ne démarre ni télécommande ni audio.
 
 Le bandeau de suite regroupe la connexion StageFlow, les alertes, le thème,
 la langue, le guide et l'aide, avec un affichage qui s'adapte à la largeur.
@@ -43,8 +50,11 @@ WASAPI/WDM exposent la file, les manques et les débordements ; ils ne mesurent
 pas la latence totale du matériel et n'ajoutent pas de compensation de dérive.
 
 Ces changements Windows ne sont pas annoncés dans les paquets Mac 2027.0.1.
-Les captures ci-dessus sont natives et non retouchées ; elles ne constituent
-pas une qualification de carte audio, de récepteur HF ou de téléphone réel.
+Les captures ci-dessus sont natives et non retouchées, conservées de la livraison
+initiale : elles ne montrent pas le nouveau centre et ne valident pas ce build.
+La nouvelle recette associe tests logiciels, interop StageFlow sur boucle locale,
+Chromium et observation native FR/sombre à 96 DPI. Ce n’est pas un test sur deux
+PC physiques, une matrice native multi-DPI ou une qualification audio/HF/téléphone.
 
 ---
 
@@ -262,8 +272,15 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **Windows 2027.0.2** and **macOS 2027.0.1** for Apple Silicon
-and Intel. Mac packages are unchanged. Windows 2027.0.2 adds the responsive
+Current downloads: **Windows 2027.0.2, build connections-20260906-r2**, and
+**macOS 2027.0.1** for Apple Silicon and Intel. Mac packages are unchanged.
+The new Windows build unifies StageFlow connection and phone access in one
+non-modal centre and reports the actual remote-service state to StageFlow.
+Opening the centre starts neither remote control nor audio. Verification combines
+software tests, loopback StageFlow interop, Chromium and a bounded native FR/dark
+review at 96 DPI; no two-physical-PC, multi-DPI native or physical audio/phone claim.
+Images retained above belong to the initial delivery, not this new build.
+Windows 2027.0.2 also adds the responsive
 shared suite header, browser-local **My monitor** preference and clearer hybrid
 ASIO-to-WASAPI/WDM software diagnostics. These changes are not included in the
 older Mac packages. See the [release notes](RELEASE-NOTES-2027.0.2.md) and

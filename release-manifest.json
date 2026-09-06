@@ -2,13 +2,14 @@
   "version": "2027.0.2",
   "fileVersion": "2027.0.2.0",
   "platform": "windows-x64",
-  "sourceCommit": "cc1b5c9af8c1a840e6e73e94ddfaad4b7eaf4cce",
+  "sourceCommit": "b97e98285542a6561f0841e8303cdd9295b3e02f",
+  "buildRevision": "connections-20260906-r2",
   "testsRunByBuild": false,
   "guideManifestSha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9",
   "installer": {
     "name": "StageMon-2027.0.2-Setup.exe",
-    "bytes": 58588760,
-    "sha256": "E6647CD0DC8DFE2874EB9163F690569DEA00ACC53C970476FE9E3B7B48BCB7DC"
+    "bytes": 58592968,
+    "sha256": "8278D10F9730E6A5F73AACEBD20C05D3810A7E7D93ADCA2685F7A1BB126D9447"
   },
   "installedPayload": [
     {
@@ -53,8 +54,8 @@
     },
     {
       "path": "docs/RELEASE-NOTES-2027.0.2.md",
-      "bytes": 5258,
-      "sha256": "B1A5B08E9A23C09CE6D2A310B17A38FEC0755E0704689CCF0032F7A134443104"
+      "bytes": 8612,
+      "sha256": "46ED1D8FECD9214D0297D70B51864B063CDFF24C6F384DF7BE50FD319E023F78"
     },
     {
       "path": "stage-monitoring.ico",
@@ -63,18 +64,18 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 199793659,
-      "sha256": "C934478038F808DC39B9D4B9E16AA3C0C64C84B857532983BD0D41112804F52C"
+      "bytes": 199805947,
+      "sha256": "55FF05984F15B8462699ED8A3F163D3266203F6CF5FE3825E013640F25BE939F"
     }
   ],
   "acceptedCandidate": {
-    "executableSha256": "C934478038F808DC39B9D4B9E16AA3C0C64C84B857532983BD0D41112804F52C",
-    "compiledFromBaseCommit": "5f49ceca34ca6ab13d610c4efdfd5dd4130c1a0a",
-    "sourceInventorySha256": "7A14DCA1FC043FF26DCB5B75A1892A8FC027BB879ABE7BB4ACA8A500266A19E2",
-    "cliReceiptSha256": "C8660102D4075D17FBE9DFF9F5B9E0407C2BE8DBE28F345AAD28C39A0D009CD6",
-    "nativeReceiptSha256": "27BDBD69C2829C02CCFA3EE540E3E32F93F4C82033426521A88A1B9CE1898D70",
+    "executableSha256": "55FF05984F15B8462699ED8A3F163D3266203F6CF5FE3825E013640F25BE939F",
+    "compiledFromBaseCommit": "12a3351a67e5c3dea8a3bf423857079f34fd4b8d",
+    "sourceInventorySha256": "6BEC2C2B14C9987A491891D78E7AD5606205B85013605E550445205BF715028C",
+    "cliReceiptSha256": "ED6B07BFF1A620EDD2C5788986E5F110551485DEE583BCF70FFD57062BE4D623",
+    "nativeReceiptSha256": "E4817E09270A5CC3ED05B8D8ABC040F74D744414CC878F825711DB0B100F9589",
     "nativeDpiScaleObserved": 1,
-    "nativeDpiCheckDescription": "Windows current-user WindowMetrics AppliedDPI read as 96 (100% profile scale), without changing any setting. Native images reviewed at 1546x913 and 1010x913. No per-window DPI API measurement, per-monitor transition or multi-DPI qualification performed.",
+    "nativeDpiCheckDescription": "GetDpiForWindow read on the verified candidate main HWND; DPI=96, awareness=system-aware. PID, path, SHA, window ownership and start time checked before/after. No profile-DPI inference. One current window only; not a multi-DPI visual matrix.",
     "reusedWithoutRecompilation": true,
     "physicalAudioValidated": false,
     "physicalNetworkValidated": false,
