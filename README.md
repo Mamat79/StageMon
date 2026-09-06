@@ -10,27 +10,41 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-Setup.exe"><strong>Windows x64</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.2/StageMon-2027.0.2-Setup.exe"><strong>Windows x64 · 2027.0.2</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-Intel.dmg"><strong>Mac Intel</strong></a>
 </p>
 
-Version actuelle : **2027.0.1**, binaire Windows **2027.0.1.0**.
-[Nouveautés](RELEASE-NOTES-2027.0.1.md) ·
+Versions actuelles : **Windows 2027.0.2** (binaire **2027.0.2.0**) et
+**macOS 2027.0.1** (Apple Silicon et Intel, paquets inchangés).
+[Nouveautés Windows](RELEASE-NOTES-2027.0.2.md) ·
+[Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
 [Guide PDF français](guides/Guide-Suite-SiLeMIO-FR.pdf) ·
 [English PDF guide](guides/SiLeMIO-Suite-Guide-EN.pdf).
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMon"></a><br>
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr.mp4">Présentation · FR</a>
-  · <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-fr.vtt">Sous-titres FR</a>
-  · <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-en.mp4">Presentation · EN</a>
-  · <a href="https://github.com/Mamat79/StageMon/releases/download/v2026.3/stagemon-presentation-en.vtt">EN captions</a>
+  <img src="media/StageMon-2027.0.2-Windows-fr-dark.jpg" width="1000" alt="StageMon Windows 2027.0.2 : matrice CUE, bandeau commun et deux monitors, thème sombre"><br>
+  Capture native Windows 2027.0.2 · projet de démonstration · moteur arrêté
 </p>
 
-La vidéo présente la version 2026.3 ; les nouveautés 2027 sont décrites ci-dessous.
+[Thème clair FR](media/StageMon-2027.0.2-Windows-fr-light.jpg) ·
+[Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
+[Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
+
+### Nouveautés Windows 2027.0.2
+
+Le bandeau de suite regroupe la connexion StageFlow, les alertes, le thème,
+la langue, le guide et l'aide, avec un affichage qui s'adapte à la largeur.
+La télécommande mémorise **Mon écoute** dans le navigateur, sans envoyer de
+commande audio au chargement. Les diagnostics du mode hybride ASIO vers
+WASAPI/WDM exposent la file, les manques et les débordements ; ils ne mesurent
+pas la latence totale du matériel et n'ajoutent pas de compensation de dérive.
+
+Ces changements Windows ne sont pas annoncés dans les paquets Mac 2027.0.1.
+Les captures ci-dessus sont natives et non retouchées ; elles ne constituent
+pas une qualification de carte audio, de récepteur HF ou de téléphone réel.
 
 ---
 
@@ -202,7 +216,7 @@ StageMon.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2027.0.1-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2027.0.2-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -247,6 +261,13 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 **StageMon** is a Windows and macOS monitoring matrix for line checks, stage changes and
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
+
+Current downloads: **Windows 2027.0.2** and **macOS 2027.0.1** for Apple Silicon
+and Intel. Mac packages are unchanged. Windows 2027.0.2 adds the responsive
+shared suite header, browser-local **My monitor** preference and clearer hybrid
+ASIO-to-WASAPI/WDM software diagnostics. These changes are not included in the
+older Mac packages. See the [release notes](RELEASE-NOTES-2027.0.2.md) and
+[platform/control scope](qa/PLATFORM-CONTROL-SCOPE-2027.md).
 
 StageMon distinguishes three paths: a native **StageMon project**, a **Local
 StageFlow project** stored in a `.stageflow` folder available on this computer, and an
@@ -309,7 +330,7 @@ StageMon is available as a **€49 VAT-included perpetual licence** with a 30-da
 trial. Activate from the application within your licence's installation limit.
 Commercial terms are unchanged.
 
-Download `StageMon-2027.0.1-Setup.exe` from the
+Download `StageMon-2027.0.2-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real

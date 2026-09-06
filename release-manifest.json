@@ -1,30 +1,30 @@
 {
-  "version": "2027.0.1",
-  "fileVersion": "2027.0.1.0",
+  "version": "2027.0.2",
+  "fileVersion": "2027.0.2.0",
   "platform": "windows-x64",
-  "sourceCommit": "e8ee12f6dad20beeb86bb88c9c15373d0457d72c",
-  "testsRunByBuild": true,
-  "guideManifestSha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4",
+  "sourceCommit": "cc1b5c9af8c1a840e6e73e94ddfaad4b7eaf4cce",
+  "testsRunByBuild": false,
+  "guideManifestSha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9",
   "installer": {
-    "name": "StageMon-2027.0.1-Setup.exe",
-    "bytes": 58581686,
-    "sha256": "8474EDECC6066C31AB775E9DF2B249C7B2701793A27C9C2EEC69CA489AD65C52"
+    "name": "StageMon-2027.0.2-Setup.exe",
+    "bytes": 58588760,
+    "sha256": "E6647CD0DC8DFE2874EB9163F690569DEA00ACC53C970476FE9E3B7B48BCB7DC"
   },
   "installedPayload": [
     {
       "path": "docs/guides/canonical-suite-guides-manifest.json",
       "bytes": 3032,
-      "sha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4"
+      "sha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9"
     },
     {
       "path": "docs/guides/Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 405675,
-      "sha256": "D9745A119A6112D6E13AD0783F4AED928819ED49C101846C09DE391DA2E0B110"
+      "bytes": 405754,
+      "sha256": "E438D52A1012E2C91F9AAF935DC9DB16EE77E9989EDA692A26A27AC9BF75FC49"
     },
     {
       "path": "docs/guides/SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 363267,
-      "sha256": "ADAB35A01BB06BCF4E715B6EFAA9701C9BD73F753C53806AD6AFEB985B670B71"
+      "bytes": 363318,
+      "sha256": "104D554C08F886032345EEF7EC98CFBF2DDDB283D6EDEE55E044CB3206953DBC"
     },
     {
       "path": "docs/guides/StageMon-Guide-EN.pdf",
@@ -42,9 +42,19 @@
       "sha256": "5776BCD5E658CA71B6FEDC38793D8C8FA774459B46C229DA50F4086F080BBCF8"
     },
     {
-      "path": "docs/RELEASE-NOTES-2027.0.1.md",
-      "bytes": 3907,
-      "sha256": "F0C46CC070D0CD0DBF3A28B2244345CB07FE6873769B51CBE01F49E9B5101117"
+      "path": "docs/qa/HF-PROTOCOL-SCOPE.md",
+      "bytes": 6910,
+      "sha256": "F3564663F0798383FD223497EA4413BA3A41E36C4FD6EB16CDC76E5687FAAC19"
+    },
+    {
+      "path": "docs/qa/PLATFORM-CONTROL-SCOPE-2027.md",
+      "bytes": 5259,
+      "sha256": "C06D9281C908BD87FCB28F4B2E9D02E0B1CCCA7955D916E9B60E1ACC384FD828"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.0.2.md",
+      "bytes": 5258,
+      "sha256": "B1A5B08E9A23C09CE6D2A310B17A38FEC0755E0704689CCF0032F7A134443104"
     },
     {
       "path": "stage-monitoring.ico",
@@ -53,8 +63,21 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 199766523,
-      "sha256": "8D022B7AA467CE3A1372265DC893F8CD559DD838527EE615EC426A423B9150FB"
+      "bytes": 199793659,
+      "sha256": "C934478038F808DC39B9D4B9E16AA3C0C64C84B857532983BD0D41112804F52C"
     }
-  ]
+  ],
+  "acceptedCandidate": {
+    "executableSha256": "C934478038F808DC39B9D4B9E16AA3C0C64C84B857532983BD0D41112804F52C",
+    "compiledFromBaseCommit": "5f49ceca34ca6ab13d610c4efdfd5dd4130c1a0a",
+    "sourceInventorySha256": "7A14DCA1FC043FF26DCB5B75A1892A8FC027BB879ABE7BB4ACA8A500266A19E2",
+    "cliReceiptSha256": "C8660102D4075D17FBE9DFF9F5B9E0407C2BE8DBE28F345AAD28C39A0D009CD6",
+    "nativeReceiptSha256": "27BDBD69C2829C02CCFA3EE540E3E32F93F4C82033426521A88A1B9CE1898D70",
+    "nativeDpiScaleObserved": 1,
+    "nativeDpiCheckDescription": "Windows current-user WindowMetrics AppliedDPI read as 96 (100% profile scale), without changing any setting. Native images reviewed at 1546x913 and 1010x913. No per-window DPI API measurement, per-monitor transition or multi-DPI qualification performed.",
+    "reusedWithoutRecompilation": true,
+    "physicalAudioValidated": false,
+    "physicalNetworkValidated": false,
+    "physicalPhoneValidated": false
+  }
 }

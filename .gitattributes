@@ -18,3 +18,8 @@ release-manifest-macos.json -text
 release-manifest-suite.json -text
 RELEASE-NOTES-2027.0.1.md -text
 StageMon-2027.0.1-macOS-README.txt -text
+# Windows 2027.0.2 reviewed documentation, images and checksum inventory.
+RELEASE-NOTES-2027.0.2.md -text
+SHA256SUMS.txt -text
+qa/** -text
+*.jpg binary

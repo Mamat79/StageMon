@@ -1,0 +1,60 @@
+{
+  "version": "2027.0.1",
+  "fileVersion": "2027.0.1.0",
+  "platform": "windows-x64",
+  "sourceCommit": "e8ee12f6dad20beeb86bb88c9c15373d0457d72c",
+  "testsRunByBuild": true,
+  "guideManifestSha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4",
+  "installer": {
+    "name": "StageMon-2027.0.1-Setup.exe",
+    "bytes": 58581686,
+    "sha256": "8474EDECC6066C31AB775E9DF2B249C7B2701793A27C9C2EEC69CA489AD65C52"
+  },
+  "installedPayload": [
+    {
+      "path": "docs/guides/canonical-suite-guides-manifest.json",
+      "bytes": 3032,
+      "sha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4"
+    },
+    {
+      "path": "docs/guides/Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 405675,
+      "sha256": "D9745A119A6112D6E13AD0783F4AED928819ED49C101846C09DE391DA2E0B110"
+    },
+    {
+      "path": "docs/guides/SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363267,
+      "sha256": "ADAB35A01BB06BCF4E715B6EFAA9701C9BD73F753C53806AD6AFEB985B670B71"
+    },
+    {
+      "path": "docs/guides/StageMon-Guide-EN.pdf",
+      "bytes": 51860,
+      "sha256": "CA4603AFE54FBF296FB7B946CA4FB72B9F8A7734BC23AF0985D85CAC9682EFF0"
+    },
+    {
+      "path": "docs/guides/StageMon-Guide-FR.pdf",
+      "bytes": 53760,
+      "sha256": "1EDBBBE0BB45CCF942F559C33FB14F4223C6DA8BCA8A6BBA68FA906C974ADC40"
+    },
+    {
+      "path": "docs/LIVE-FOLLOWING.md",
+      "bytes": 3939,
+      "sha256": "5776BCD5E658CA71B6FEDC38793D8C8FA774459B46C229DA50F4086F080BBCF8"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.0.1.md",
+      "bytes": 3907,
+      "sha256": "F0C46CC070D0CD0DBF3A28B2244345CB07FE6873769B51CBE01F49E9B5101117"
+    },
+    {
+      "path": "stage-monitoring.ico",
+      "bytes": 23968,
+      "sha256": "E82B76DBD0BCF070069E6B0E44E031698682958DCB132BED2304686A7BD9D86A"
+    },
+    {
+      "path": "StageMon.exe",
+      "bytes": 199766523,
+      "sha256": "8D022B7AA467CE3A1372265DC893F8CD559DD838527EE615EC426A423B9150FB"
+    }
+  ]
+}
