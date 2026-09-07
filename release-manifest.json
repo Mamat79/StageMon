@@ -2,40 +2,40 @@
   "version": "2027.0.2",
   "fileVersion": "2027.0.2.0",
   "platform": "windows-x64",
-  "sourceCommit": "b97e98285542a6561f0841e8303cdd9295b3e02f",
-  "buildRevision": "connections-20260906-r2",
+  "sourceCommit": "99ed9095a2bc4395bcfe58e0a1dee3b72d2de235",
+  "buildRevision": "alerts-notices-20260907-r1",
   "testsRunByBuild": false,
-  "guideManifestSha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9",
+  "guideManifestSha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
   "installer": {
     "name": "StageMon-2027.0.2-Setup.exe",
-    "bytes": 58592968,
-    "sha256": "8278D10F9730E6A5F73AACEBD20C05D3810A7E7D93ADCA2685F7A1BB126D9447"
+    "bytes": 58664192,
+    "sha256": "DB4D2F6A7AF54E4F7C60624E0FA2B453C1F381FA9D1ABD6BFD5FF956786294A3"
   },
   "installedPayload": [
     {
       "path": "docs/guides/canonical-suite-guides-manifest.json",
-      "bytes": 3032,
-      "sha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9"
+      "bytes": 3567,
+      "sha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60"
     },
     {
       "path": "docs/guides/Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 405754,
-      "sha256": "E438D52A1012E2C91F9AAF935DC9DB16EE77E9989EDA692A26A27AC9BF75FC49"
+      "bytes": 406116,
+      "sha256": "236A751649392D2BCBFBB10B753015EA0AA4AA92A0D86F3E7FB8D8F75639D968"
     },
     {
       "path": "docs/guides/SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 363318,
-      "sha256": "104D554C08F886032345EEF7EC98CFBF2DDDB283D6EDEE55E044CB3206953DBC"
+      "bytes": 363744,
+      "sha256": "63B52A0CE2C8D03DC6E8A0333D06A5A91EEE534A4FEB0DBA6E8EAD1F19724B93"
     },
     {
       "path": "docs/guides/StageMon-Guide-EN.pdf",
-      "bytes": 51860,
-      "sha256": "CA4603AFE54FBF296FB7B946CA4FB72B9F8A7734BC23AF0985D85CAC9682EFF0"
+      "bytes": 92004,
+      "sha256": "B844A7B5789E1BF74D326094151C34039A2C4B609E3C0D2866B1EF5D3E050CF9"
     },
     {
       "path": "docs/guides/StageMon-Guide-FR.pdf",
-      "bytes": 53760,
-      "sha256": "1EDBBBE0BB45CCF942F559C33FB14F4223C6DA8BCA8A6BBA68FA906C974ADC40"
+      "bytes": 94910,
+      "sha256": "99179DAD6E79E71C335DF6899F833CA6F4BDB9A8AFF783FA6E8637D602BE6F97"
     },
     {
       "path": "docs/LIVE-FOLLOWING.md",
@@ -54,8 +54,8 @@
     },
     {
       "path": "docs/RELEASE-NOTES-2027.0.2.md",
-      "bytes": 8612,
-      "sha256": "46ED1D8FECD9214D0297D70B51864B063CDFF24C6F384DF7BE50FD319E023F78"
+      "bytes": 9365,
+      "sha256": "A0557E4CEC9255F975CEC12919CFD82D1D357E65E104D98A18F0295AB3D5DF22"
     },
     {
       "path": "stage-monitoring.ico",
@@ -64,18 +64,18 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 199805947,
-      "sha256": "55FF05984F15B8462699ED8A3F163D3266203F6CF5FE3825E013640F25BE939F"
+      "bytes": 199818235,
+      "sha256": "48B3681048D33441F3FE364F50BAD18F97A1819A738A46111C3E11876D9B9ECA"
     }
   ],
   "acceptedCandidate": {
-    "executableSha256": "55FF05984F15B8462699ED8A3F163D3266203F6CF5FE3825E013640F25BE939F",
-    "compiledFromBaseCommit": "12a3351a67e5c3dea8a3bf423857079f34fd4b8d",
-    "sourceInventorySha256": "6BEC2C2B14C9987A491891D78E7AD5606205B85013605E550445205BF715028C",
-    "cliReceiptSha256": "ED6B07BFF1A620EDD2C5788986E5F110551485DEE583BCF70FFD57062BE4D623",
-    "nativeReceiptSha256": "E4817E09270A5CC3ED05B8D8ABC040F74D744414CC878F825711DB0B100F9589",
-    "nativeDpiScaleObserved": 1,
-    "nativeDpiCheckDescription": "GetDpiForWindow read on the verified candidate main HWND; DPI=96, awareness=system-aware. PID, path, SHA, window ownership and start time checked before/after. No profile-DPI inference. One current window only; not a multi-DPI visual matrix.",
+    "executableSha256": "48B3681048D33441F3FE364F50BAD18F97A1819A738A46111C3E11876D9B9ECA",
+    "compiledFromBaseCommit": "441e4a9047220605855c8a7cff64afe6126c030c",
+    "sourceInventorySha256": "6F099B223417986EDB5E3DF8CFF51014A155E6EC13835C2899899668172A964E",
+    "cliReceiptSha256": "41C789282CA46FEC50B003BF8123344EEA60652BCDD192D62B9BD993919685DF",
+    "nativeReceiptSha256": "66B3DAC791A7AB5A0FA7F5DA32F307250B867C9EF66405E35178B500A42BE0DF",
+    "nativeDpiScaleObserved": 1.0,
+    "nativeDpiCheckDescription": "GetDpiForWindow exact candidate HWND 3214702/PID44208, 96 DPI, system-aware, SHA/path/start time checked before and after. Current Windows scaling only; no multi-DPI native claim.",
     "reusedWithoutRecompilation": true,
     "physicalAudioValidated": false,
     "physicalNetworkValidated": false,

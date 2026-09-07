@@ -1,4 +1,68 @@
-# StageMon 2027.0.2 - Windows - connections-20260906-r2
+# StageMon 2027.0.2 - Windows - alerts-notices-20260907-r1
+
+## Français — mise à jour du 7 septembre 2026
+
+- Alertes de modification en StageFlow LIVE local et réseau : acquittement propre
+  au poste, pause des notifications indépendante du suivi des noms.
+- Commandes centrales Clear Cue A/B et télécommande complète vérifiées jusqu'à
+  leur effet dans le modèle Windows, avec refus utiles et sans rejeu à la reconnexion.
+- Création autonome, modèle Excel, import, enregistrement StageFlow et aller-retour
+  vérifiés. Les noms publics des groupes se modifient dans la feuille Commun.
+  Les données des autres modules sont préservées lors d'une copie de projet.
+- L'ancien projet Démo s'exporte explicitement en copie détachée, sans modifier
+  les écoutes courantes ; ouvrir cette copie pour l'utiliser comme projet partagé.
+- Guide ouvre la notice StageMon FR/EN ; Guide de la suite reste dans Aide.
+  L'accès téléphone redondant près d'Aide est retiré, le centre Connexion conservé.
+- Notices StageMon enrichies : neuf pages par langue ; guides de suite 2027.3 inclus.
+
+Installeur : **58 664 192 octets**, SHA-256
+`DB4D2F6A7AF54E4F7C60624E0FA2B453C1F381FA9D1ABD6BFD5FF956786294A3`.
+EXE 2027.0.2.0 : SHA-256
+`48B3681048D33441F3FE364F50BAD18F97A1819A738A46111C3E11876D9B9ECA`.
+Produit compilé `441e4a9`, emballage `99ed909`, exécutable accepté réutilisé sans
+recompilation. La note embarquée dans l'installeur était gelée avant publication ;
+les présentes notes et le manifeste identifient la révision effectivement livrée.
+
+274 tests unitaires et neuf groupes de tests navigateur Windows réussis, parcours
+interop locaux/réseau et fichiers vérifiés. Recette native limitée au français,
+thème sombre, 96 DPI et navigation clavier ; installation Windows vérifiée avec
+profil inchangé. Aucun test audio matériel, téléphone réel ou réseau de spectacle.
+La notice FR s'est ouverte dans Acrobat ; une erreur Font Capture du lecteur a
+ensuite été acquittée. Les images publiques existantes restent celles de la
+livraison initiale, pas des preuves de cette nouvelle révision.
+
+Fermer StageMon avant installation. Raccourci **StageMon v2027**, aucun démarrage
+audio implicite. Projets, préférences, licence et prix inchangés.
+**macOS 2027.0.1 reste inchangé** et n'inclut pas ces corrections Windows.
+
+## English — September 7, 2026 update
+
+Local and network StageFlow LIVE change alerts now support workstation-local
+acknowledgement and notification pause independent of label synchronization.
+Central Clear Cue A/B and the full remote were verified through the Windows model,
+including useful refusal and no reconnect replay. Standalone creation, Excel
+template/import and shared StageFlow round trips preserve common data and foreign
+modules. Public group names are editable in Commun. Legacy Demo export produces
+an explicit detached copy without changing the current monitoring state.
+
+The toolbar Guide opens the localized nine-page StageMon guide. The suite guide
+remains in Help; the redundant phone shortcut is removed, not the connection
+centre. Suite guide bundle 2027.3 is included. Installer and executable hashes above
+identify the exact accepted, unrecompiled Windows build. The embedded release note
+was frozen before publication; these public notes describe the delivered revision.
+
+274 unit tests, nine Windows browser groups and software/file interoperability
+checks passed. Native acceptance is limited to FR/dark at 96 DPI and keyboard
+navigation; the Windows update preserved the profile. No physical audio, phone,
+show-network or full native language/theme/DPI validation. Acrobat opened the FR
+guide and then reported a Font Capture error that was dismissed normally.
+Retained screenshots belong to the initial release. Close StageMon before updating;
+audio startup remains explicit. **Mac 2027.0.1 is unchanged**, with none of these
+new Windows corrections. Pricing and licensing are unchanged.
+
+---
+
+# Historical notes — connections-20260906-r2 (superseded Windows build)
 
 Build Windows `connections-20260906-r2`, sous le numéro public 2027.0.2 conservé.
 Le binaire produit est celui compilé depuis `12a3351` et accepté sous la candidate

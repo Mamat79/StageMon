@@ -2,21 +2,21 @@
   "product": "StageMon",
   "version": "2027.0.2",
   "releaseTag": "v2027.0.2",
-  "productSourceCommit": "12a3351a67e5c3dea8a3bf423857079f34fd4b8d",
+  "productSourceCommit": "441e4a9047220605855c8a7cff64afe6126c030c",
   "windows": {
     "version": "2027.0.2",
     "fileVersion": "2027.0.2.0",
-    "installerSha256": "8278D10F9730E6A5F73AACEBD20C05D3810A7E7D93ADCA2685F7A1BB126D9447",
+    "installerSha256": "DB4D2F6A7AF54E4F7C60624E0FA2B453C1F381FA9D1ABD6BFD5FF956786294A3",
     "downloadUrl": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.2/StageMon-2027.0.2-Setup.exe",
-    "nativeAcceptance": "Bounded acceptance of the exact new executable: FR/dark native matrix, keyboard focus, connection-centre accessibility; GetDpiForWindow=96, system-aware. No native FR/EN Light/Dark or multi-DPI matrix claim for this build.",
+    "nativeAcceptance": "Bounded FR/dark native acceptance at 96 DPI, keyboard focus and guide opening; installed exact payload and preserved profile. Acrobat opened the FR guide then reported a dismissed Font Capture error. No full native language/theme/DPI matrix or hardware claim.",
     "frozenExecutableReused": true,
     "physicalAudioValidated": false,
     "physicalNetworkValidated": false,
     "physicalPhoneValidated": false,
-    "buildRevision": "connections-20260906-r2",
-    "installerBytes": 58592968,
-    "executableSha256": "55FF05984F15B8462699ED8A3F163D3266203F6CF5FE3825E013640F25BE939F",
-    "softwareAcceptance": "218 WPF connection assertions, 912 header assertions, 30 SuiteConsole tests, 40 real StageFlow producer loopback fixture assertions; fresh Chromium checks of production Remote page/model with audio disabled. Not two physical PCs, a real WPF network join/poll, or a physical phone."
+    "buildRevision": "alerts-notices-20260907-r1",
+    "installerBytes": 58664192,
+    "executableSha256": "48B3681048D33441F3FE364F50BAD18F97A1819A738A46111C3E11876D9B9ECA",
+    "softwareAcceptance": "274 unit tests; 932 header, 218 connection, 68 network interop, 26 local interop and 18 shared round-trip assertions; nine Windows browser groups. No physical phone, audio or show-network validation."
   },
   "mac": {
     "version": "2027.0.1",
@@ -44,17 +44,17 @@
       }
     ]
   },
-  "guidesBundle": "2027.2",
+  "guidesBundle": "2027.3",
   "assets": [
     {
       "name": "canonical-suite-guides-manifest.json",
-      "bytes": 3032,
-      "sha256": "40AE77C353922CB3BB2FAF5BE0F2AFF86A0BB6C72E22CB41A6FC8C345E0F6BF9"
+      "bytes": 3567,
+      "sha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60"
     },
     {
       "name": "Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 405754,
-      "sha256": "E438D52A1012E2C91F9AAF935DC9DB16EE77E9989EDA692A26A27AC9BF75FC49"
+      "bytes": 406116,
+      "sha256": "236A751649392D2BCBFBB10B753015EA0AA4AA92A0D86F3E7FB8D8F75639D968"
     },
     {
       "name": "HF-PROTOCOL-SCOPE.md",
@@ -68,28 +68,28 @@
     },
     {
       "name": "release-manifest.json",
-      "bytes": 3376,
-      "sha256": "C6FFCEADDB0EA5928E01C8B426D292AC57B2F7E15D38FFA367FA995854347693"
+      "bytes": 3319,
+      "sha256": "8FABADC32BFE5D582CAC7297BFB72848953C49E6C0A5C131C0681572CE4378F0"
     },
     {
       "name": "RELEASE-NOTES-2027.0.2.md",
-      "bytes": 9365,
-      "sha256": "A0557E4CEC9255F975CEC12919CFD82D1D357E65E104D98A18F0295AB3D5DF22"
+      "bytes": 13370,
+      "sha256": "D6E646815C2EF346E344445FC854095775E5162D5B64F3C2951340A63F4A4C18"
     },
     {
       "name": "SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 363318,
-      "sha256": "104D554C08F886032345EEF7EC98CFBF2DDDB283D6EDEE55E044CB3206953DBC"
+      "bytes": 363744,
+      "sha256": "63B52A0CE2C8D03DC6E8A0333D06A5A91EEE534A4FEB0DBA6E8EAD1F19724B93"
     },
     {
       "name": "StageMon-2027.0.2-Setup.exe",
-      "bytes": 58592968,
-      "sha256": "8278D10F9730E6A5F73AACEBD20C05D3810A7E7D93ADCA2685F7A1BB126D9447"
+      "bytes": 58664192,
+      "sha256": "DB4D2F6A7AF54E4F7C60624E0FA2B453C1F381FA9D1ABD6BFD5FF956786294A3"
     },
     {
       "name": "StageMon-2027.0.2-Setup.exe.sha256",
       "bytes": 95,
-      "sha256": "F2CDE2D7B60E75141F89082DBDF964C774E520D8C61A646E30457734817F5428"
+      "sha256": "6B42277A0B5D4F85D7471749807A682E172BA05C0DE1AD4B922B3D82A46CF0B6"
     },
     {
       "name": "StageMon-2027.0.2-Windows-en-dark.jpg",
@@ -113,16 +113,16 @@
     },
     {
       "name": "StageMon-Guide-EN.pdf",
-      "bytes": 51860,
-      "sha256": "CA4603AFE54FBF296FB7B946CA4FB72B9F8A7734BC23AF0985D85CAC9682EFF0"
+      "bytes": 92004,
+      "sha256": "B844A7B5789E1BF74D326094151C34039A2C4B609E3C0D2866B1EF5D3E050CF9"
     },
     {
       "name": "StageMon-Guide-FR.pdf",
-      "bytes": 53760,
-      "sha256": "1EDBBBE0BB45CCF942F559C33FB14F4223C6DA8BCA8A6BBA68FA906C974ADC40"
+      "bytes": 94910,
+      "sha256": "99179DAD6E79E71C335DF6899F833CA6F4BDB9A8AFF783FA6E8637D602BE6F97"
     }
   ],
-  "scope": "Public binaries and notices only. Windows 2027.0.2 build connections-20260906-r2; Mac 2027.0.1 unchanged. Retained unedited native images belong to the initial Windows delivery and do not validate the replacement executable. No private profiles, source files or raw QA receipts.",
-  "buildRevision": "connections-20260906-r2",
-  "packagingSourceCommit": "b97e98285542a6561f0841e8303cdd9295b3e02f"
+  "scope": "Public binaries and documentation only. Windows 2027.0.2 alerts-notices-20260907-r1; Mac 2027.0.1 unchanged. Retained images are from the initial Windows release. No private source, profiles or raw QA receipts.",
+  "buildRevision": "alerts-notices-20260907-r1",
+  "packagingSourceCommit": "99ed9095a2bc4395bcfe58e0a1dee3b72d2de235"
 }
