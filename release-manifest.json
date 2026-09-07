@@ -1,15 +1,15 @@
 {
-  "version": "2027.0.2",
-  "fileVersion": "2027.0.2.0",
+  "version": "2027.0.4",
+  "fileVersion": "2027.0.4.0",
   "platform": "windows-x64",
-  "sourceCommit": "99ed9095a2bc4395bcfe58e0a1dee3b72d2de235",
-  "buildRevision": "alerts-notices-20260907-r1",
+  "sourceCommit": "0cc767121d8c70647de087a5e8320f6963515cec",
+  "buildRevision": "",
   "testsRunByBuild": false,
   "guideManifestSha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
   "installer": {
-    "name": "StageMon-2027.0.2-Setup.exe",
-    "bytes": 58664192,
-    "sha256": "DB4D2F6A7AF54E4F7C60624E0FA2B453C1F381FA9D1ABD6BFD5FF956786294A3"
+    "name": "StageMon-2027.0.4-Setup.exe",
+    "bytes": 58660503,
+    "sha256": "1ED4CC8F0B099EC38ECA6E203A7716099CD259E69EE841BED38ED6229F4C5FD0"
   },
   "installedPayload": [
     {
@@ -44,18 +44,18 @@
     },
     {
       "path": "docs/qa/HF-PROTOCOL-SCOPE.md",
-      "bytes": 6910,
-      "sha256": "F3564663F0798383FD223497EA4413BA3A41E36C4FD6EB16CDC76E5687FAAC19"
+      "bytes": 7011,
+      "sha256": "E49C4D6D1EBE3030B2FD7E9CF36FA76B6824F808979D352F733F9C649EE48DEC"
     },
     {
       "path": "docs/qa/PLATFORM-CONTROL-SCOPE-2027.md",
-      "bytes": 5259,
-      "sha256": "C06D9281C908BD87FCB28F4B2E9D02E0B1CCCA7955D916E9B60E1ACC384FD828"
+      "bytes": 5326,
+      "sha256": "B04848B1DA9D265BC27F1749251B9183BD2C0D336909A793E4F9D0D80B06074C"
     },
     {
-      "path": "docs/RELEASE-NOTES-2027.0.2.md",
-      "bytes": 9365,
-      "sha256": "A0557E4CEC9255F975CEC12919CFD82D1D357E65E104D98A18F0295AB3D5DF22"
+      "path": "docs/RELEASE-NOTES-2027.0.4.md",
+      "bytes": 3571,
+      "sha256": "247F7DAFC88E196548499116EDA8CDED13B4CBE0A45AF01456CF282AF32F4BD6"
     },
     {
       "path": "stage-monitoring.ico",
@@ -64,21 +64,8 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 199818235,
-      "sha256": "48B3681048D33441F3FE364F50BAD18F97A1819A738A46111C3E11876D9B9ECA"
+      "bytes": 199826427,
+      "sha256": "3738F4592105CDE887262C475984F42C8E5621AE0872955A40E74EBD8D1C0192"
     }
-  ],
-  "acceptedCandidate": {
-    "executableSha256": "48B3681048D33441F3FE364F50BAD18F97A1819A738A46111C3E11876D9B9ECA",
-    "compiledFromBaseCommit": "441e4a9047220605855c8a7cff64afe6126c030c",
-    "sourceInventorySha256": "6F099B223417986EDB5E3DF8CFF51014A155E6EC13835C2899899668172A964E",
-    "cliReceiptSha256": "41C789282CA46FEC50B003BF8123344EEA60652BCDD192D62B9BD993919685DF",
-    "nativeReceiptSha256": "66B3DAC791A7AB5A0FA7F5DA32F307250B867C9EF66405E35178B500A42BE0DF",
-    "nativeDpiScaleObserved": 1.0,
-    "nativeDpiCheckDescription": "GetDpiForWindow exact candidate HWND 3214702/PID44208, 96 DPI, system-aware, SHA/path/start time checked before and after. Current Windows scaling only; no multi-DPI native claim.",
-    "reusedWithoutRecompilation": true,
-    "physicalAudioValidated": false,
-    "physicalNetworkValidated": false,
-    "physicalPhoneValidated": false
-  }
+  ]
 }
