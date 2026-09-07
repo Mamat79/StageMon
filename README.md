@@ -10,15 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.2/StageMon-2027.0.2-Setup.exe"><strong>Windows x64 · 2027.0.2</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-Intel.dmg"><strong>Mac Intel</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.4/StageMon-2027.0.4-Setup.exe"><strong>Windows x64 · 2027.0.4</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.3/StageMon-2027.0.3-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.3/StageMon-2027.0.3-macOS-Intel.dmg"><strong>Mac Intel</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.0.2**, build **alerts-notices-20260907-r1**
-(binaire **2027.0.2.0**, 7 septembre 2026), et
-**macOS 2027.0.1** (Apple Silicon et Intel, paquets inchangés).
-[Nouveautés Windows](RELEASE-NOTES-2027.0.2.md) ·
+Versions actuelles : **Windows 2027.0.4** (binaire **2027.0.4.0**, 7 septembre
+2026) et **macOS 2027.0.3** (Apple Silicon et Intel, paquets inchangés par cette
+livraison Windows).
+[Nouveautés Windows](RELEASE-NOTES-2027.0.4.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -34,13 +34,25 @@ Versions actuelles : **Windows 2027.0.2**, build **alerts-notices-20260907-r1**
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
-### Nouveautés Windows 2027.0.2
+### Nouveautés Windows 2027.0.4
 
-Le build **alerts-notices-20260907-r1** corrige les alertes LIVE locales et réseau,
-vérifie Clear Cue A/B depuis StageFlow et les échanges de projets autonomes/Excel/StageFlow.
-Les notices FR/EN sont enrichies ; Guide ouvre la notice StageMon et le guide de
-suite reste dans Aide. L'icône téléphone redondante est retirée : l'accès reste
-dans le centre **Connexion StageFlow**.
+Cette livraison fiabilise l'autorité StageFlow LIVE locale et réseau, refuse les
+sessions et projets inattendus avant application d'un snapshot, et conserve les
+modifications locales lors d'un rafraîchissement distant. Le nombre de circuits
+est explicitement limité de deux à six, soit A à F, avec retour visuel et raison
+d'indisponibilité pendant le traitement audio.
+
+Les rôles de couleur et les états sélectionnés, désactivés, d'avertissement et
+d'erreur ont été harmonisés dans les thèmes sombre et clair. Le popup natif 2–6
+et la séquence 2 → 3 → 4 → 5 → 6 → 2 ont été observés sans démarrer l'audio, la
+télécommande ou un projet utilisateur. L'intermittence signalée où le sélecteur
+resterait bloqué à 2 n'a pas été reproduite : cette livraison ne la présente pas
+comme corrigée.
+
+### Historique Windows 2027.0.2
+
+Le build **connections-20260906-r2** unifie le centre **Connexion StageFlow** :
+l’icône téléphone ouvre désormais la rubrique Télécommande du même centre.
 Projet autonome, projet StageFlow local, session LIVE et télécommande ont des
 états distincts. StageFlow reçoit l’état réel du service ; un service arrêté
 n’est plus annoncé disponible. Ouvrir le centre ne démarre ni télécommande ni audio.
@@ -275,12 +287,10 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **Windows 2027.0.2, build alerts-notices-20260907-r1**, and
+Current downloads: **Windows 2027.0.2, build connections-20260906-r2**, and
 **macOS 2027.0.1** for Apple Silicon and Intel. Mac packages are unchanged.
-The new Windows build fixes local/network LIVE alerts and verifies central Clear
-Cue A/B and standalone/Excel/StageFlow round trips. Expanded FR/EN product guides
-open from Guide; the suite guide stays in Help. The redundant phone icon is removed,
-while remote access remains in the unified StageFlow connection centre.
+The new Windows build unifies StageFlow connection and phone access in one
+non-modal centre and reports the actual remote-service state to StageFlow.
 Opening the centre starts neither remote control nor audio. Verification combines
 software tests, loopback StageFlow interop, Chromium and a bounded native FR/dark
 review at 96 DPI; no two-physical-PC, multi-DPI native or physical audio/phone claim.
