@@ -10,15 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.4/StageMon-2027.0.4-Setup.exe"><strong>Windows x64 · 2027.0.4</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.3/StageMon-2027.0.3-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.0.3/StageMon-2027.0.3-macOS-Intel.dmg"><strong>Mac Intel</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-Setup.exe"><strong>Windows x64 · 2027.1.0</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.0</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.0</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.0.4** (binaire **2027.0.4.0**, 7 septembre
-2026) et **macOS 2027.0.3** (Apple Silicon et Intel, paquets inchangés par cette
-livraison Windows).
-[Nouveautés Windows](RELEASE-NOTES-2027.0.4.md) ·
+Version actuelle : **2027.1.0** sous Windows et macOS, publiée à partir du même
+tag produit.
+[Nouveautés 2027.1.0](RELEASE-NOTES-2027.1.0.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -34,7 +33,16 @@ livraison Windows).
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
-### Nouveautés Windows 2027.0.4
+### Nouveautés 2027.1.0
+
+Cette version ajoute la sauvegarde/récupération sûre des projets, renforce le
+contrat StageFlow LIVE et garde le serveur QR arrêté jusqu'à l'action explicite
+de l'utilisateur. L'écoute WebRTC/Opus sur téléphone est facultative et séparée
+des sorties physiques : sans activation, aucun flux audio ne part sur le réseau.
+Les panneaux adaptatifs, le rappel de licence non bloquant et les mêmes repères
+clair/sombre et FR/EN sont disponibles sur Windows et macOS.
+
+### Historique Windows 2027.0.4
 
 Cette livraison fiabilise l'autorité StageFlow LIVE locale et réseau, refuse les
 sessions et projets inattendus avant application d'un snapshot, et conserve les
@@ -287,18 +295,13 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **Windows 2027.0.2, build connections-20260906-r2**, and
-**macOS 2027.0.1** for Apple Silicon and Intel. Mac packages are unchanged.
-The new Windows build unifies StageFlow connection and phone access in one
-non-modal centre and reports the actual remote-service state to StageFlow.
-Opening the centre starts neither remote control nor audio. Verification combines
-software tests, loopback StageFlow interop, Chromium and a bounded native FR/dark
-review at 96 DPI; no two-physical-PC, multi-DPI native or physical audio/phone claim.
-Images retained above belong to the initial delivery, not this new build.
-Windows 2027.0.2 also adds the responsive
-shared suite header, browser-local **My monitor** preference and clearer hybrid
-ASIO-to-WASAPI/WDM software diagnostics. These changes are not included in the
-older Mac packages. See the [release notes](RELEASE-NOTES-2027.0.2.md) and
+Current downloads: **2027.1.0** for Windows x64, macOS Apple Silicon and macOS
+Intel. This release adds safe project save/recovery, the additive StageFlow LIVE
+2027.1 contract and an explicit opt-in QR server. Optional WebRTC/Opus phone
+listening is separate from physical outputs and sends no audio until enabled.
+Software tests do not qualify physical audio, a phone or a show network. Images
+retained above belong to the initial Windows delivery. See the
+[release notes](RELEASE-NOTES-2027.1.0.md) and
 [platform/control scope](qa/PLATFORM-CONTROL-SCOPE-2027.md).
 
 StageMon distinguishes three paths: a native **StageMon project**, a **Local
@@ -362,7 +365,7 @@ StageMon is available as a **€49 VAT-included perpetual licence** with a 30-da
 trial. Activate from the application within your licence's installation limit.
 Commercial terms are unchanged.
 
-Download `StageMon-2027.0.2-Setup.exe` from the
+Download `StageMon-2027.1.0-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
@@ -374,7 +377,8 @@ On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` int
 Applications. The runtime is included. macOS 12 is the declared minimum; native
 startup was verified on macOS 15 on both architectures. Packages are **ad-hoc
 signed, not Apple-notarized**, and may show a first-launch warning. Do not disable
-Gatekeeper globally. Read the [Mac installation notes](https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-README.txt).
+Gatekeeper globally. Read the notes and checksum files attached to the
+[2027.1.0 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.0).
 
 Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
 starting audio remains explicit and requests microphone access. Keychain protects

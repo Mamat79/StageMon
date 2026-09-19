@@ -1,15 +1,15 @@
 {
-  "version": "2027.0.4",
-  "fileVersion": "2027.0.4.0",
+  "version": "2027.1.0",
+  "fileVersion": "2027.1.0.0",
   "platform": "windows-x64",
-  "sourceCommit": "0cc767121d8c70647de087a5e8320f6963515cec",
+  "sourceCommit": "72cd4e045daaec85f7a8f7bbf6ad613570550022",
   "buildRevision": "",
   "testsRunByBuild": false,
   "guideManifestSha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
   "installer": {
-    "name": "StageMon-2027.0.4-Setup.exe",
-    "bytes": 58660503,
-    "sha256": "1ED4CC8F0B099EC38ECA6E203A7716099CD259E69EE841BED38ED6229F4C5FD0"
+    "name": "StageMon-2027.1.0-Setup.exe",
+    "bytes": 65332612,
+    "sha256": "3FAFC9E811B1F391C1BA6126D405C48000FCB05A441463EBE150A1975B68F557"
   },
   "installedPayload": [
     {
@@ -53,9 +53,9 @@
       "sha256": "B04848B1DA9D265BC27F1749251B9183BD2C0D336909A793E4F9D0D80B06074C"
     },
     {
-      "path": "docs/RELEASE-NOTES-2027.0.4.md",
-      "bytes": 3571,
-      "sha256": "247F7DAFC88E196548499116EDA8CDED13B4CBE0A45AF01456CF282AF32F4BD6"
+      "path": "docs/RELEASE-NOTES-2027.1.0.md",
+      "bytes": 3970,
+      "sha256": "5EEBDBE9D62F6C4FCF29A1E0646594573D41C70258AD03C0982C1193ED3E1DAF"
     },
     {
       "path": "stage-monitoring.ico",
@@ -64,8 +64,21 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 199826427,
-      "sha256": "3738F4592105CDE887262C475984F42C8E5621AE0872955A40E74EBD8D1C0192"
+      "bytes": 230579099,
+      "sha256": "A9C9C231321F02A2C65C3D702F8B732C684DE37520ACFFA672D311A985713931"
     }
-  ]
+  ],
+  "acceptedCandidate": {
+    "executableSha256": "A9C9C231321F02A2C65C3D702F8B732C684DE37520ACFFA672D311A985713931",
+    "compiledFromBaseCommit": "7b30e933ed71a1f758b76c90726a77ae03dd1c0d",
+    "sourceInventorySha256": "D26EAFED5C51D2E35A5E156079069F3308072DC87FD726E505F0A6E9647EFFEC",
+    "cliReceiptSha256": "399AB0BF854ED0AE270D0150914DA10C2B434BB6A79EF0C3A15B8E4394F28091",
+    "nativeReceiptSha256": "8726D2C091DEF057F9C038BE0639C21A62A45E6C418ADB499740C6FB51F6CF49",
+    "nativeDpiScaleObserved": 1.0,
+    "nativeDpiCheckDescription": "The exact commercial candidate opened a native 1560 x 920 WPF window at 96 DPI (100%). The isolated QA candidate was then checked manually for visible keyboard focus, French and English, Light and Dark themes, and dirty-project close cancellation and discard.",
+    "reusedWithoutRecompilation": true,
+    "physicalAudioValidated": false,
+    "physicalNetworkValidated": false,
+    "physicalPhoneValidated": false
+  }
 }

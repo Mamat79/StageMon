@@ -1,45 +1,49 @@
 {
   "product": "StageMon",
-  "version": "2027.0.4",
-  "releaseTag": "v2027.0.4",
-  "productSourceCommit": "0cc767121d8c70647de087a5e8320f6963515cec",
-  "packagingSourceCommit": "0cc767121d8c70647de087a5e8320f6963515cec",
+  "version": "2027.1.0",
+  "releaseTag": "v2027.1.0",
+  "productSourceCommit": "72cd4e045daaec85f7a8f7bbf6ad613570550022",
+  "packagingSourceCommit": "72cd4e045daaec85f7a8f7bbf6ad613570550022",
   "windows": {
-    "version": "2027.0.4",
-    "fileVersion": "2027.0.4.0",
-    "installerSha256": "1ED4CC8F0B099EC38ECA6E203A7716099CD259E69EE841BED38ED6229F4C5FD0",
-    "installerBytes": 58660503,
-    "executableSha256": "3738F4592105CDE887262C475984F42C8E5621AE0872955A40E74EBD8D1C0192",
-    "downloadUrl": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.4/StageMon-2027.0.4-Setup.exe",
-    "softwareAcceptance": "98 circuits/LIVE checks; 203 Infrastructure tests; 43 Core tests; 218 connection-centre and 932 suite-header assertions. No physical audio, phone or show-network qualification.",
-    "nativeAcceptance": "Isolated Windows fixture: native 2–6 popup and visible 2→3→4→5→6→2 sequence; dark popup/menu readable. Light GUI, exhaustive hover/keyboard, physical audio and remote LIVE not qualified.",
-    "intermittentTwoSelector": "Reported intermittent selector stuck at 2 was not reproduced and is not claimed fixed.",
+    "version": "2027.1.0",
+    "fileVersion": "2027.1.0.0",
+    "installerSha256": "3FAFC9E811B1F391C1BA6126D405C48000FCB05A441463EBE150A1975B68F557",
+    "installerBytes": 65332612,
+    "executableSha256": "A9C9C231321F02A2C65C3D702F8B732C684DE37520ACFFA672D311A985713931",
+    "downloadUrl": "https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-Setup.exe",
+    "softwareAcceptance": "330 unit tests across Core, Infrastructure, Licensing, NAudio, CoreAudio and Mac logic; nine browser scenarios; 218 connection-centre, 932 suite-header, 68 remote interop, 26 local interop and 18 shared-project assertions. No physical audio, phone or show-network qualification.",
+    "nativeAcceptance": "Exact commercial Windows candidate accepted by the coordinated native receipt recorded in the installer manifest. See that immutable receipt for the observed DPI, rendering and keyboard scope.",
     "physicalAudioValidated": false,
     "physicalNetworkValidated": false,
     "physicalPhoneValidated": false
   },
   "mac": {
-    "version": "2027.0.3",
-    "releaseTag": "v2027.0.3",
-    "unchanged": true,
-    "newWindowsChangesIncluded": false,
+    "version": "2027.1.0",
+    "releaseTag": "v2027.1.0",
+    "status": "passed-codemagic-tag-build",
+    "codemagicBuildId": "6aaef93167218a4330132bc6",
+    "unchanged": false,
+    "newWindowsChangesIncluded": true,
+    "appleSiliconNativeSmoke": true,
+    "intelArchitectureVerified": "x86_64",
+    "intelPhysicalMacValidated": false,
     "downloads": [
       {
-        "name": "StageMon-2027.0.3-macOS-AppleSilicon.dmg",
-        "bytes": 66855449,
-        "sha256": "3A14184214A95D1452B8E3FDD0172873FB72F24A6876F333158AD00C9048FA20",
-        "url": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.3/StageMon-2027.0.3-macOS-AppleSilicon.dmg"
+        "name": "StageMon-2027.1.0-macOS-AppleSilicon.dmg",
+        "bytes": 80244885,
+        "sha256": "0D75402F9A3837E4826480461FF9EA480E5E54E4F4D27EE7BF3B6AD4C613D64C",
+        "url": "https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-macOS-AppleSilicon.dmg"
       },
       {
-        "name": "StageMon-2027.0.3-macOS-Intel.dmg",
-        "bytes": 68188260,
-        "sha256": "9EB9C20520CC44E2928638CDFAF924A1482FFDB795A8E2930C5F99B75B260403",
-        "url": "https://github.com/Mamat79/StageMon/releases/download/v2027.0.3/StageMon-2027.0.3-macOS-Intel.dmg"
+        "name": "StageMon-2027.1.0-macOS-Intel.dmg",
+        "bytes": 81701680,
+        "sha256": "A0CEA6E5E128DC844217B84C45C84746EAF305B75D9DE72DDDF9CDD22CDB45C6",
+        "url": "https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-macOS-Intel.dmg"
       }
     ]
   },
   "guidesBundle": "2027.3",
-  "scope": "Public Windows binaries and documentation only. No private product source, profiles, licences or raw runtime data.",
+  "scope": "Windows 2027.1.0 is qualified by software tests and coordinated native acceptance. macOS 2027.1.0 passed the tagged Codemagic M2 build, Apple Silicon mounted-DMG smoke and Intel x86_64 architecture checks. No physical audio, phone, show-network or Intel-hardware qualification is claimed. No private product source, profiles, licences or raw runtime data are distributed.",
   "assets": [
     {
       "name": "canonical-suite-guides-manifest.json",
@@ -57,14 +61,24 @@
       "sha256": "236A751649392D2BCBFBB10B753015EA0AA4AA92A0D86F3E7FB8D8F75639D968"
     },
     {
-      "name": "release-manifest.json",
-      "bytes": 2397,
-      "sha256": "B1FBCDE0684F5646BCB5913E27E7CCCD728AC236D160D983E1748E69246BA252"
+      "name": "release-manifest-macos.json",
+      "bytes": 1636,
+      "sha256": "D2D9F65D35B527B9A56FAC3A0D805E5C5724B352192890F6BE4E902BDD6362C0"
     },
     {
-      "name": "RELEASE-NOTES-2027.0.4.md",
-      "bytes": 3571,
-      "sha256": "247F7DAFC88E196548499116EDA8CDED13B4CBE0A45AF01456CF282AF32F4BD6"
+      "name": "release-manifest.json",
+      "bytes": 3373,
+      "sha256": "490C52C14EAE0F842E8E8D363D4E0E6814D22008A433D63993105BF7FFC6A5DF"
+    },
+    {
+      "name": "RELEASE-NOTES-2027.1.0.md",
+      "bytes": 3970,
+      "sha256": "5EEBDBE9D62F6C4FCF29A1E0646594573D41C70258AD03C0982C1193ED3E1DAF"
+    },
+    {
+      "name": "SHA256SUMS-macos.txt",
+      "bytes": 623,
+      "sha256": "9862A64ABB1A356DCA5CA52BA9B3F4160D65BFC380155C00D64A1A11D1DD4DF8"
     },
     {
       "name": "SiLeMIO-Suite-Guide-EN.pdf",
@@ -72,14 +86,39 @@
       "sha256": "63B52A0CE2C8D03DC6E8A0333D06A5A91EEE534A4FEB0DBA6E8EAD1F19724B93"
     },
     {
-      "name": "StageMon-2027.0.4-Setup.exe",
-      "bytes": 58660503,
-      "sha256": "1ED4CC8F0B099EC38ECA6E203A7716099CD259E69EE841BED38ED6229F4C5FD0"
+      "name": "StageMon-2027.1.0-Setup.exe",
+      "bytes": 65332612,
+      "sha256": "3FAFC9E811B1F391C1BA6126D405C48000FCB05A441463EBE150A1975B68F557"
     },
     {
-      "name": "StageMon-2027.0.4-Setup.exe.sha256",
+      "name": "StageMon-2027.1.0-Setup.exe.sha256",
       "bytes": 95,
-      "sha256": "03C06FAF40E5DBF2E7A27A14A2852371F9FC0C6D374C514ABDDD35B11A654FAB"
+      "sha256": "A62839926AFA1F5BB99723357113B61630E7FE00DC5C36E3DD481DB6FDF3D769"
+    },
+    {
+      "name": "StageMon-2027.1.0-macOS-AppleSilicon.dmg",
+      "bytes": 80244885,
+      "sha256": "0D75402F9A3837E4826480461FF9EA480E5E54E4F4D27EE7BF3B6AD4C613D64C"
+    },
+    {
+      "name": "StageMon-2027.1.0-macOS-AppleSilicon.dmg.sha256",
+      "bytes": 107,
+      "sha256": "54B0F22443C000F3DC91008494F6518E8B7D8B79BFF0AF8FBAB96148EE314AA7"
+    },
+    {
+      "name": "StageMon-2027.1.0-macOS-Intel.dmg",
+      "bytes": 81701680,
+      "sha256": "A0CEA6E5E128DC844217B84C45C84746EAF305B75D9DE72DDDF9CDD22CDB45C6"
+    },
+    {
+      "name": "StageMon-2027.1.0-macOS-Intel.dmg.sha256",
+      "bytes": 100,
+      "sha256": "BE3270EA47CABB22DE18044172E0D706982399D1F40DD65449E4F83391624DA2"
+    },
+    {
+      "name": "StageMon-2027.1.0-macOS-README.txt",
+      "bytes": 2470,
+      "sha256": "D98083AE3D8C47FC92EAF9F8BCBF4F38A5AB3C636890095757E7D635FF77A6CE"
     },
     {
       "name": "StageMon-Guide-EN.pdf",
