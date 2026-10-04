@@ -1,15 +1,15 @@
 {
-  "version": "2027.1.0",
-  "fileVersion": "2027.1.0.0",
+  "version": "2027.1.3",
+  "fileVersion": "2027.1.3.0",
   "platform": "windows-x64",
-  "sourceCommit": "72cd4e045daaec85f7a8f7bbf6ad613570550022",
+  "sourceCommit": "c280be6405a6ed74e20db5138d1d71fe71de8dce",
   "buildRevision": "",
   "testsRunByBuild": false,
   "guideManifestSha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
   "installer": {
-    "name": "StageMon-2027.1.0-Setup.exe",
-    "bytes": 65332612,
-    "sha256": "3FAFC9E811B1F391C1BA6126D405C48000FCB05A441463EBE150A1975B68F557"
+    "name": "StageMon-2027.1.3-Setup.exe",
+    "bytes": 65364086,
+    "sha256": "8B8B422407FB3D12E47A4E8810C9BD68B5E2E5882DDABC09D6B5BABE61880042"
   },
   "installedPayload": [
     {
@@ -29,18 +29,18 @@
     },
     {
       "path": "docs/guides/StageMon-Guide-EN.pdf",
-      "bytes": 92004,
-      "sha256": "B844A7B5789E1BF74D326094151C34039A2C4B609E3C0D2866B1EF5D3E050CF9"
+      "bytes": 95147,
+      "sha256": "FE59C1204FFD7BB601530D962E1F4244D21BE42098601A465F0659B0748B1420"
     },
     {
       "path": "docs/guides/StageMon-Guide-FR.pdf",
-      "bytes": 94910,
-      "sha256": "99179DAD6E79E71C335DF6899F833CA6F4BDB9A8AFF783FA6E8637D602BE6F97"
+      "bytes": 98632,
+      "sha256": "1795B03FEA6A7024BDB630B8B461EA1E44E470B1D3ED5F17EBB8026E78E5CF12"
     },
     {
       "path": "docs/LIVE-FOLLOWING.md",
-      "bytes": 3939,
-      "sha256": "5776BCD5E658CA71B6FEDC38793D8C8FA774459B46C229DA50F4086F080BBCF8"
+      "bytes": 4010,
+      "sha256": "D32DB5EDFED3D32E671FE5B35341AFA6A43DF521C999C1D25CB65E8C120C9152"
     },
     {
       "path": "docs/qa/HF-PROTOCOL-SCOPE.md",
@@ -53,9 +53,29 @@
       "sha256": "B04848B1DA9D265BC27F1749251B9183BD2C0D336909A793E4F9D0D80B06074C"
     },
     {
-      "path": "docs/RELEASE-NOTES-2027.1.0.md",
-      "bytes": 3970,
-      "sha256": "5EEBDBE9D62F6C4FCF29A1E0646594573D41C70258AD03C0982C1193ED3E1DAF"
+      "path": "docs/RELEASE-NOTES-2027.1.2-EN.md",
+      "bytes": 2279,
+      "sha256": "A265BA8F272EDB4B86C59A317F101899E45A29943ECF8217572533CB40B1D130"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.2-FR.md",
+      "bytes": 2616,
+      "sha256": "49F356C775428A5BF125767ED88936CA5D3D01A20A6023D020B3BC77B6494B57"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.3-EN.md",
+      "bytes": 1031,
+      "sha256": "A52A53EB304C7F432DD600CA609E592541945A47F87A581302B8ED02055FFF8A"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.3-FR.md",
+      "bytes": 1184,
+      "sha256": "7F7FCDEEAD4492875FC2430CEBA94EE16D9C0F47E66D53374FE911C272838734"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.3.md",
+      "bytes": 1679,
+      "sha256": "D3E8E7762ADFEBC3CAF8DF6F236E4B9275B80F6527029DD311E904BC779A1ADC"
     },
     {
       "path": "stage-monitoring.ico",
@@ -64,21 +84,8 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 230579099,
-      "sha256": "A9C9C231321F02A2C65C3D702F8B732C684DE37520ACFFA672D311A985713931"
+      "bytes": 230661531,
+      "sha256": "F5959CC0E279C38FEAC590F6B1506109339C5A440BDA67A387AAF33CAE2C9341"
     }
-  ],
-  "acceptedCandidate": {
-    "executableSha256": "A9C9C231321F02A2C65C3D702F8B732C684DE37520ACFFA672D311A985713931",
-    "compiledFromBaseCommit": "7b30e933ed71a1f758b76c90726a77ae03dd1c0d",
-    "sourceInventorySha256": "D26EAFED5C51D2E35A5E156079069F3308072DC87FD726E505F0A6E9647EFFEC",
-    "cliReceiptSha256": "399AB0BF854ED0AE270D0150914DA10C2B434BB6A79EF0C3A15B8E4394F28091",
-    "nativeReceiptSha256": "8726D2C091DEF057F9C038BE0639C21A62A45E6C418ADB499740C6FB51F6CF49",
-    "nativeDpiScaleObserved": 1.0,
-    "nativeDpiCheckDescription": "The exact commercial candidate opened a native 1560 x 920 WPF window at 96 DPI (100%). The isolated QA candidate was then checked manually for visible keyboard focus, French and English, Light and Dark themes, and dirty-project close cancellation and discard.",
-    "reusedWithoutRecompilation": true,
-    "physicalAudioValidated": false,
-    "physicalNetworkValidated": false,
-    "physicalPhoneValidated": false
-  }
+  ]
 }

@@ -10,14 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-Setup.exe"><strong>Windows x64 · 2027.1.0</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.0</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.0/StageMon-2027.1.0-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.0</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-Setup.exe"><strong>Windows x64 · 2027.1.3</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.3</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.3</strong></a>
 </p>
 
-Version actuelle : **2027.1.0** sous Windows et macOS, publiée à partir du même
-tag produit.
-[Nouveautés 2027.1.0](RELEASE-NOTES-2027.1.0.md) ·
+Version actuelle : **2027.1.3** sous Windows et macOS, Windows et Mac construits à partir des mêmes sources produit privées ; le tag public désigne uniquement la distribution sans source.
+[Nouveautés 2027.1.3](RELEASE-NOTES-2027.1.3.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -33,7 +32,11 @@ tag produit.
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
-### Nouveautés 2027.1.0
+### Nouveautés 2027.1.3
+
+Après l'essai complet de 30 jours, le rappel au démarrage attend désormais 5 secondes au lieu de 60. Toutes les fonctions restent disponibles ensuite ; une licence valide supprime rappel et attente. La mise à jour ne réinitialise ni essai ni activation.
+
+### Historique 2027.1.0
 
 Cette version ajoute la sauvegarde/récupération sûre des projets, renforce le
 contrat StageFlow LIVE et garde le serveur QR arrêté jusqu'à l'action explicite
@@ -249,7 +252,7 @@ StageMon.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2027.0.2-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2027.1.3-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -270,11 +273,11 @@ disponibles pour retour arrière.
 Téléchargez le DMG **AppleSilicon** pour un Mac Apple Silicon ou **Intel** pour
 un Mac Intel, puis glissez `StageMon.app` dans Applications. Le runtime est inclus.
 Le minimum déclaré est macOS 12 ; cette livraison a été vérifiée nativement
-sur macOS 15, sur les deux architectures.
+sur Apple Silicon depuis le DMG. Le paquet Intel est cross-compilé sur M2 et son architecture vérifiée ; il n'a pas été exécuté sur un Mac Intel.
 
 Les applications sont signées **ad hoc**, sans Developer ID ni notarisation Apple.
 Un avertissement peut donc apparaître à la première ouverture. Ne désactivez
-pas Gatekeeper globalement. Consultez la [notice Mac FR/EN](https://github.com/Mamat79/StageMon/releases/download/v2027.0.1/StageMon-2027.0.1-macOS-README.txt).
+pas Gatekeeper globalement. Consultez la [notice Mac FR/EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/RELEASE-NOTES-2027.1.3-FR.md).
 
 Le démarrage audio reste volontaire et demande l'accès au microphone. Vérifiez
 les niveaux et les sorties physiques avant de démarrer. Le Trousseau protège
@@ -295,13 +298,15 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **2027.1.0** for Windows x64, macOS Apple Silicon and macOS
-Intel. This release adds safe project save/recovery, the additive StageFlow LIVE
+Current downloads: **2027.1.3** for Windows x64, macOS Apple Silicon and macOS
+Intel. After the unchanged 30-day trial, the startup reminder now waits 5 seconds
+instead of 60. A valid license removes the reminder and wait; updating does not
+reset the trial or activation. Earlier releases added safe project save/recovery, the additive StageFlow LIVE
 2027.1 contract and an explicit opt-in QR server. Optional WebRTC/Opus phone
 listening is separate from physical outputs and sends no audio until enabled.
 Software tests do not qualify physical audio, a phone or a show network. Images
 retained above belong to the initial Windows delivery. See the
-[release notes](RELEASE-NOTES-2027.1.0.md) and
+[release notes](RELEASE-NOTES-2027.1.3.md) and
 [platform/control scope](qa/PLATFORM-CONTROL-SCOPE-2027.md).
 
 StageMon distinguishes three paths: a native **StageMon project**, a **Local
@@ -365,7 +370,7 @@ StageMon is available as a **€49 VAT-included perpetual licence** with a 30-da
 trial. Activate from the application within your licence's installation limit.
 Commercial terms are unchanged.
 
-Download `StageMon-2027.1.0-Setup.exe` from the
+Download `StageMon-2027.1.3-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
@@ -375,10 +380,10 @@ settings and licensing are preserved.
 
 On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` into
 Applications. The runtime is included. macOS 12 is the declared minimum; native
-startup was verified on macOS 15 on both architectures. Packages are **ad-hoc
+startup was verified on Apple Silicon from the DMG. The Intel package was cross-built on M2 and architecture-checked, not executed on Intel hardware. Packages are **ad-hoc
 signed, not Apple-notarized**, and may show a first-launch warning. Do not disable
 Gatekeeper globally. Read the notes and checksum files attached to the
-[2027.1.0 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.0).
+[2027.1.3 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.3).
 
 Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
 starting audio remains explicit and requests microphone access. Keychain protects
