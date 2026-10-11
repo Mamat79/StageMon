@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-Setup.exe"><strong>Windows x64 · 2027.1.3</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.4/StageMon-2027.1.4-Setup.exe"><strong>Windows x64 · 2027.1.4</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.3</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.3</strong></a>
 </p>
 
-Version actuelle : **2027.1.3** sous Windows et macOS, Windows et Mac construits à partir des mêmes sources produit privées ; le tag public désigne uniquement la distribution sans source.
-[Nouveautés 2027.1.3](RELEASE-NOTES-2027.1.3.md) ·
+Version actuelle : **Windows 2027.1.4** ; **macOS 2027.1.3**. La livraison Windows réutilise l’EXE 1.4 vérifié, avec une recette d’empaquetage distincte. Aucun DMG 1.3 n’est renommé en 1.4. Le tag public désigne uniquement la distribution sans source.
+[Nouveautés Windows 2027.1.4](RELEASE-NOTES-2027.1.4.md) · [Qualification et limites / Qualification and limits](QUALIFICATION-2027.1.4.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -31,6 +31,15 @@ Version actuelle : **2027.1.3** sous Windows et macOS, Windows et Mac construits
 [Thème clair FR](media/StageMon-2027.0.2-Windows-fr-light.jpg) ·
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
+
+
+### Livraison Windows 2027.1.4 — qualification native en attente
+
+Publication autorisée explicitement le 11 octobre 2026. Les tests logiciels et les empreintes du candidat Windows ont été vérifiés. Le rendu de la fenêtre native, la navigation clavier et la matrice DPI complète ne sont pas qualifiés ; les captures automatisées sont inconclusives et leur cause n’est pas établie. L’audio matériel, le réseau réel et le téléphone ne sont pas qualifiés. Le nouvel installeur standard a été compilé avec succès et ses fichiers d’entrée contrôlés ; son installation réelle, sa mise à niveau, ses raccourcis et son retour arrière n’ont pas été exercés pour cette livraison. Une validation manuelle reste à faire avant utilisation en production.
+
+Windows 2027.1.4 est livré avec .NET 10 ; les réglages, projets, essais et activations conservent leurs emplacements et leur politique. Aucun compte, licence ou profil personnel n’a été réinitialisé. Les téléchargements Mac restent en 2027.1.3 avec leur qualification et leur minimum macOS propres.
+
+**English:** Windows 2027.1.4 was published on explicit human instruction with native qualification pending. Software tests and candidate hashes were verified. Native window rendering, keyboard navigation and full DPI coverage remain unqualified; automated captures were inconclusive and their cause is unknown. Physical audio, live networks and phones remain unqualified. The standard installer compiled successfully and its input payload was checked, but installation, upgrade, shortcuts and rollback were not exercised for this delivery. Manual acceptance remains necessary before production use. Mac downloads remain 2027.1.3 with their own qualification and system requirements.
 
 ### Nouveautés 2027.1.3
 
@@ -370,7 +379,7 @@ StageMon is available as a **€49 VAT-included perpetual licence** with a 30-da
 trial. Activate from the application within your licence's installation limit.
 Commercial terms are unchanged.
 
-Download `StageMon-2027.1.3-Setup.exe` from the
+Download `StageMon-2027.1.4-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
