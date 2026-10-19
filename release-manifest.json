@@ -1,15 +1,15 @@
 {
-  "version": "2027.1.4",
-  "fileVersion": "2027.1.4.0",
+  "version": "2027.1.5",
+  "fileVersion": "2027.1.5.0",
   "platform": "windows-x64",
-  "sourceCommit": "3af79540c06f3089c6c06a499cde1e57af6b5703",
-  "buildRevision": "",
+  "sourceCommit": "79e90327d3a8e0e7bae22d7d5f0a62a35c954a36",
+  "buildRevision": "f10-20261019-001",
   "testsRunByBuild": false,
   "guideManifestSha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
   "installer": {
-    "name": "StageMon-2027.1.4-Setup.exe",
-    "bytes": 68112065,
-    "sha256": "777B3A464D22A83C13D03C3F99BE383C8A693D6EFBE21155DEE547BD967BEB64"
+    "name": "StageMon-2027.1.5-Setup.exe",
+    "bytes": 68125566,
+    "sha256": "05AE1443843961BC7E2645846B08E0D4CF1A02001B0190217962390367D8FDFD"
   },
   "installedPayload": [
     {
@@ -39,18 +39,18 @@
     },
     {
       "path": "docs/LIVE-FOLLOWING.md",
-      "bytes": 3939,
-      "sha256": "5776BCD5E658CA71B6FEDC38793D8C8FA774459B46C229DA50F4086F080BBCF8"
+      "bytes": 4010,
+      "sha256": "D32DB5EDFED3D32E671FE5B35341AFA6A43DF521C999C1D25CB65E8C120C9152"
     },
     {
       "path": "docs/qa/HF-PROTOCOL-SCOPE.md",
-      "bytes": 6910,
-      "sha256": "F3564663F0798383FD223497EA4413BA3A41E36C4FD6EB16CDC76E5687FAAC19"
+      "bytes": 7011,
+      "sha256": "E49C4D6D1EBE3030B2FD7E9CF36FA76B6824F808979D352F733F9C649EE48DEC"
     },
     {
       "path": "docs/qa/PLATFORM-CONTROL-SCOPE-2027.md",
-      "bytes": 5259,
-      "sha256": "C06D9281C908BD87FCB28F4B2E9D02E0B1CCCA7955D916E9B60E1ACC384FD828"
+      "bytes": 5326,
+      "sha256": "B04848B1DA9D265BC27F1749251B9183BD2C0D336909A793E4F9D0D80B06074C"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.2-EN.md",
@@ -83,9 +83,19 @@
       "sha256": "33072ACD1015E4C8F1126914783BF8F9134836F285BC774894013F6D62C11DE0"
     },
     {
-      "path": "docs/RELEASE-NOTES-2027.1.4.md",
-      "bytes": 479,
-      "sha256": "EB26E91C767B04FB28C6E964134167601077988FDC669A36FE468FCE66691680"
+      "path": "docs/RELEASE-NOTES-2027.1.5-EN.md",
+      "bytes": 2082,
+      "sha256": "7FDE0C7111B1C016C0B76513D04A5B445C56A1F6EF0C7CF17BB4F889707265F7"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.5-FR.md",
+      "bytes": 2331,
+      "sha256": "7F7C50B6E0BC54F9239505D231481566AD05E09D784585C75CAF335E3A400C95"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.5.md",
+      "bytes": 631,
+      "sha256": "01EB52977020DAF022D105CC6C55AC79AED4C546BFFF17DB8A84235A0D9378A0"
     },
     {
       "path": "stage-monitoring.ico",
@@ -94,35 +104,28 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 242982430,
-      "sha256": "EF96419A432A1FACEA1A7478D91DFD014138C22829092A54581FD90A14F85ED9"
+      "bytes": 243007006,
+      "sha256": "006D39CC43E79FD90E220C8C5397AE282FD3269255DEE6BB488CC9398F09F54A"
     }
   ],
   "deliveryQualification": {
-    "status": "not-qualified",
-    "publicationPolicy": "explicit-human-exception",
-    "authorizedOn": "2026-10-11",
-    "nativeRenderingChecked": false,
-    "keyboardFocusChecked": false,
-    "dpiQualified": false,
-    "limitations": "OS-window rendering and keyboard navigation were not qualified. Automated captures were inconclusive; product versus capture/input cause was not established. No full DPI, physical audio, network or phone qualification.",
-    "authorizationReceiptSha256": "9B9D4A06BE87771B807D823F92ACD52D055AB0374BA57EFF4B1DB4580806B088",
-    "nativeObservationReceiptSha256": "F2C0C34F5A8DAFEA5F5B5D79E362C0DFBED067468E63223EBDA51AEEEA8859D4"
+    "status": "passed",
+    "publicationPolicy": "native-accepted"
   },
   "acceptedCandidate": {
-    "executableSha256": "EF96419A432A1FACEA1A7478D91DFD014138C22829092A54581FD90A14F85ED9",
-    "compiledFromBaseCommit": "e7eb8431b1e06bedb4c489cc23968e20516f6687",
-    "sourceInventorySha256": "9F21DCC658257D63B6EDDE11F9028064D3453631391B882FD59B3988028F3EF5",
-    "cliReceiptSha256": "1AD7BE4122053820175088A60B109DC088B9B49A8671351359890D2B6424DEDE",
-    "nativeReceiptSha256": null,
-    "nativeDpiScaleObserved": null,
-    "nativeDpiCheckDescription": "NOT QUALIFIED; refer to separate inconclusive observation receipt hash.",
+    "executableSha256": "006D39CC43E79FD90E220C8C5397AE282FD3269255DEE6BB488CC9398F09F54A",
+    "compiledFromBaseCommit": "1feb0b67c79246ab99610887740c2697fee64f8c",
+    "sourceInventorySha256": "CFCB949636847E2C1CE923EEC509CEEBDC193BD5CAC228B8CF588E5488EB58F8",
+    "cliReceiptSha256": "2F7ACE9490B05203FCD231F82D8FD893776A840E23290DA5201BCBB2E7016686",
+    "nativeReceiptSha256": "BA49862B26CBD3C32B771C60D71F51D5D6DAEC85576467444DF42351630070BD",
+    "nativeDpiScaleObserved": 1.0,
+    "nativeDpiCheckDescription": "GetDpiForWindow read on the verified candidate main HWND; DPI=96, awareness=system-aware. PID, path, SHA, window ownership and start time checked before/after. No profile-DPI inference. One current window only; not a multi-DPI visual matrix.",
     "reusedWithoutRecompilation": true,
     "physicalAudioValidated": false,
     "physicalNetworkValidated": false,
     "physicalPhoneValidated": false,
     "softwareAcceptance": {
-      "unitTestExecutions": 348,
+      "unitTestExecutions": 438,
       "unitTestRuns": 5,
       "browserScenarioGroups": 10,
       "cliAssertions": {

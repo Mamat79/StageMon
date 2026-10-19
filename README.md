@@ -10,13 +10,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.4/StageMon-2027.1.4-Setup.exe"><strong>Windows x64 · 2027.1.4</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.3</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/StageMon-2027.1.3-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.3</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-Setup.exe"><strong>Windows x64 · 2027.1.5</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.5</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.5</strong></a>
 </p>
 
-Version actuelle : **Windows 2027.1.4** ; **macOS 2027.1.3**. La livraison Windows réutilise l’EXE 1.4 vérifié, avec une recette d’empaquetage distincte. Aucun DMG 1.3 n’est renommé en 1.4. Le tag public désigne uniquement la distribution sans source.
-[Nouveautés Windows 2027.1.4](RELEASE-NOTES-2027.1.4.md) · [Qualification et limites / Qualification and limits](QUALIFICATION-2027.1.4.md) ·
+Version actuelle : **Windows 2027.1.5** ; **macOS 2027.1.5**.
+L’extension Windows du 19 octobre conserve les quatre fichiers Mac déjà publiés.
+Les constructions et les vérifications des deux plateformes restent distinctes.
+[Nouveautés et limites Windows 2027.1.5](RELEASE-NOTES-2027.1.5.md) ·
+[Manifeste par plateforme](release-manifest-suite.json) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -33,7 +36,22 @@ Version actuelle : **Windows 2027.1.4** ; **macOS 2027.1.3**. La livraison Windo
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
 
-### Livraison Windows 2027.1.4 — qualification native en attente
+### Windows 2027.1.5 — livraison vérifiée
+
+L’installeur a été extrait puis installé sur le poste de validation. Les
+19 fichiers livrés et la conservation des données contrôlées avant/après ont
+été vérifiés. La navigation F10 a été observée sur le candidat Windows exact
+à 96 DPI. Les contrôles logiciels comptent 438 tests unitaires, 927 assertions
+de conformité, 10 groupes navigateur et deux cas de protocole.
+
+L’application installée n’a pas été relancée après la mise à jour. Le matériel
+audio, le réseau réel, les téléphones et la matrice DPI complète restent non
+validés. Le blocage intermittent à deux circuits n’est pas présenté comme
+corrigé. L’installeur Windows est non signé ; les paquets Mac conservent leur
+qualification et leur minimum macOS 14 propres.
+
+### Historique Windows 2027.1.4 — état de qualification au 11 octobre
+
 
 Publication autorisée explicitement le 11 octobre 2026. Les tests logiciels et les empreintes du candidat Windows ont été vérifiés. Le rendu de la fenêtre native, la navigation clavier et la matrice DPI complète ne sont pas qualifiés ; les captures automatisées sont inconclusives et leur cause n’est pas établie. L’audio matériel, le réseau réel et le téléphone ne sont pas qualifiés. Le nouvel installeur standard a été compilé avec succès et ses fichiers d’entrée contrôlés ; son installation réelle, sa mise à niveau, ses raccourcis et son retour arrière n’ont pas été exercés pour cette livraison. Une validation manuelle reste à faire avant utilisation en production.
 
