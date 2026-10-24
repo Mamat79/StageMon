@@ -10,16 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-Setup.exe"><strong>Windows x64 · 2027.1.5</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-Setup.exe"><strong>Windows x64 · 2027.1.6</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.5</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.5</strong></a>
 </p>
 
-Version actuelle : **Windows 2027.1.5** ; **macOS 2027.1.5**.
-L’extension Windows du 19 octobre conserve les quatre fichiers Mac déjà publiés.
-Les constructions et les vérifications des deux plateformes restent distinctes.
-[Nouveautés et limites Windows 2027.1.5](RELEASE-NOTES-2027.1.5.md) ·
-[Manifeste par plateforme](release-manifest-suite.json) ·
+Versions actuelles : **Windows 2027.1.6** et **macOS 2027.1.5**.
+La livraison Windows clarifie l'utilisation gratuite et la licence facultative ;
+les paquets Mac restent ceux de leur release 2027.1.5, sans modification.
+[Nouveautés Windows 2027.1.6](RELEASE-NOTES-2027.1.6.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -35,33 +34,22 @@ Les constructions et les vérifications des deux plateformes restent distinctes.
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
+### Nouveautés Windows 2027.1.6
 
-### Windows 2027.1.5 — livraison vérifiée
+L'application explique dès l'ouverture que toutes les fonctions restent
+utilisables gratuitement, sans code de licence ni activation en ligne : choisissez
+**CONTINUER**. Pendant les 30 premiers jours, le rappel se ferme immédiatement ;
+ensuite, un décompte de cinq secondes précède l'accès. La licence permanente
+facultative à **49 € TTC** supprime ce rappel et cette attente. Aucun prix,
+code ou droit n'est modifié.
 
-L’installeur a été extrait puis installé sur le poste de validation. Les
-19 fichiers livrés et la conservation des données contrôlées avant/après ont
-été vérifiés. La navigation F10 a été observée sur le candidat Windows exact
-à 96 DPI. Les contrôles logiciels comptent 438 tests unitaires, 927 assertions
-de conformité, 10 groupes navigateur et deux cas de protocole.
-
-L’application installée n’a pas été relancée après la mise à jour. Le matériel
-audio, le réseau réel, les téléphones et la matrice DPI complète restent non
-validés. Le blocage intermittent à deux circuits n’est pas présenté comme
-corrigé. L’installeur Windows est non signé ; les paquets Mac conservent leur
-qualification et leur minimum macOS 14 propres.
-
-### Historique Windows 2027.1.4 — état de qualification au 11 octobre
-
-
-Publication autorisée explicitement le 11 octobre 2026. Les tests logiciels et les empreintes du candidat Windows ont été vérifiés. Le rendu de la fenêtre native, la navigation clavier et la matrice DPI complète ne sont pas qualifiés ; les captures automatisées sont inconclusives et leur cause n’est pas établie. L’audio matériel, le réseau réel et le téléphone ne sont pas qualifiés. Le nouvel installeur standard a été compilé avec succès et ses fichiers d’entrée contrôlés ; son installation réelle, sa mise à niveau, ses raccourcis et son retour arrière n’ont pas été exercés pour cette livraison. Une validation manuelle reste à faire avant utilisation en production.
-
-Windows 2027.1.4 est livré avec .NET 10 ; les réglages, projets, essais et activations conservent leurs emplacements et leur politique. Aucun compte, licence ou profil personnel n’a été réinitialisé. Les téléchargements Mac restent en 2027.1.3 avec leur qualification et leur minimum macOS propres.
-
-**English:** Windows 2027.1.4 was published on explicit human instruction with native qualification pending. Software tests and candidate hashes were verified. Native window rendering, keyboard navigation and full DPI coverage remain unqualified; automated captures were inconclusive and their cause is unknown. Physical audio, live networks and phones remain unqualified. The standard installer compiled successfully and its input payload was checked, but installation, upgrade, shortcuts and rollback were not exercised for this delivery. Manual acceptance remains necessary before production use. Mac downloads remain 2027.1.3 with their own qualification and system requirements.
-
-### Nouveautés 2027.1.3
-
-Après l'essai complet de 30 jours, le rappel au démarrage attend désormais 5 secondes au lieu de 60. Toutes les fonctions restent disponibles ensuite ; une licence valide supprime rappel et attente. La mise à jour ne réinitialise ni essai ni activation.
+Les fenêtres de licence françaises et anglaises et leur navigation clavier ont
+été observées dans Windows, à 96 DPI, avec l'EXE exact de cette livraison. Les
+contrôles logiciels exécutés sont consignés dans le manifeste : 438 exécutions
+de tests unitaires, 1 022 assertions CLI et 10 scénarios de navigateur automatisé.
+Cela ne qualifie pas une matrice complète de résolutions, une carte audio, un
+réseau ou un téléphone réels. Aucun nouveau paquet ou essai natif Mac n'est
+inclus dans ce lot Windows.
 
 ### Historique 2027.1.0
 
@@ -267,19 +255,23 @@ StageMon, Dante Config Editor et AutoCAD :
 - signature SiLeMIO · By Mamat----[]--- ;
 - informations de projet et d’état visibles sans masquer la matrice.
 
-## Prix et essai
+## Utilisation gratuite et licence facultative
 
-La licence permanente de StageMon coûte **49 € TTC**. Un essai de 30 jours
-permet de vérifier l’interface et le fonctionnement avec votre configuration.
-L'activation se fait depuis l'application, dans la limite des installations
-autorisées par votre licence. Les conditions commerciales sont inchangées.
+StageMon reste entièrement utilisable gratuitement, sans code de licence ni
+activation en ligne. Choisissez **CONTINUER**. Le rappel se ferme immédiatement
+pendant les 30 premiers jours ; ensuite, il attend cinq secondes au lancement,
+sans fin d'usage ni limitation des fonctions. La licence permanente facultative
+de soutien à **49 € TTC** supprime le rappel et l'attente. Si vous disposez d'un
+code, son activation reste possible depuis l'application, dans la limite des
+installations autorisées par votre licence. Les conditions commerciales sont
+inchangées.
 
 StageFlow reste entièrement gratuit et n’est jamais nécessaire pour utiliser
 StageMon.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2027.1.3-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2027.1.6-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -299,12 +291,13 @@ disponibles pour retour arrière.
 
 Téléchargez le DMG **AppleSilicon** pour un Mac Apple Silicon ou **Intel** pour
 un Mac Intel, puis glissez `StageMon.app` dans Applications. Le runtime est inclus.
-Le minimum déclaré est macOS 12 ; cette livraison a été vérifiée nativement
-sur Apple Silicon depuis le DMG. Le paquet Intel est cross-compilé sur M2 et son architecture vérifiée ; il n'a pas été exécuté sur un Mac Intel.
+Le minimum déclaré est macOS 12. Consultez la release Mac 2027.1.5 pour son
+périmètre de validation ; aucun nouvel essai natif Mac n'a été réalisé dans le
+lot Windows 2027.1.6.
 
 Les applications sont signées **ad hoc**, sans Developer ID ni notarisation Apple.
 Un avertissement peut donc apparaître à la première ouverture. Ne désactivez
-pas Gatekeeper globalement. Consultez la [notice Mac FR/EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.3/RELEASE-NOTES-2027.1.3-FR.md).
+pas Gatekeeper globalement. Consultez les [notes et empreintes de la release Mac 2027.1.5](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.5).
 
 Le démarrage audio reste volontaire et demande l'accès au microphone. Vérifiez
 les niveaux et les sorties physiques avant de démarrer. Le Trousseau protège
@@ -325,15 +318,19 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **2027.1.3** for Windows x64, macOS Apple Silicon and macOS
-Intel. After the unchanged 30-day trial, the startup reminder now waits 5 seconds
-instead of 60. A valid license removes the reminder and wait; updating does not
-reset the trial or activation. Earlier releases added safe project save/recovery, the additive StageFlow LIVE
-2027.1 contract and an explicit opt-in QR server. Optional WebRTC/Opus phone
-listening is separate from physical outputs and sends no audio until enabled.
-Software tests do not qualify physical audio, a phone or a show network. Images
-retained above belong to the initial Windows delivery. See the
-[release notes](RELEASE-NOTES-2027.1.3.md) and
+Current downloads: **Windows 2027.1.6**, **macOS Apple Silicon 2027.1.5** and
+**macOS Intel 2027.1.5**. This Windows update clarifies free use and the optional
+permanent license. Choose **CONTINUE** without a code or online activation.
+Dismiss the reminder immediately during the first 30 days; afterwards, wait
+five seconds at launch, with no feature limits or end of free use. An optional
+permanent license removes the reminder and wait. Mac packages are unchanged.
+The exact Windows EXE's French and English license windows and keyboard access
+were observed at 96 DPI. The executed software checks comprise 438 unit-test
+executions, 1,022 CLI assertions and 10 automated browser scenarios. These do
+not qualify physical audio, a phone, a show network or a full DPI matrix. No new
+native Mac qualification is claimed. Images retained above belong to the
+initial Windows delivery. See the
+[Windows release notes](RELEASE-NOTES-2027.1.6.md) and
 [platform/control scope](qa/PLATFORM-CONTROL-SCOPE-2027.md).
 
 StageMon distinguishes three paths: a native **StageMon project**, a **Local
@@ -393,11 +390,15 @@ full StageMon remote in the unified QR portal.
 
 ### Price and installation
 
-StageMon is available as a **€49 VAT-included perpetual licence** with a 30-day
-trial. Activate from the application within your licence's installation limit.
-Commercial terms are unchanged.
+StageMon remains fully usable for free, without a license code or online
+activation. Choose **CONTINUE**. For the first 30 days, dismiss the startup
+reminder immediately; afterwards, wait five seconds, with no feature limits or
+end of free use. The optional **€49 VAT-included perpetual supporter licence**
+removes the reminder and wait. If you received a code, activate it from the
+application within your licence's installation limit. Commercial terms are
+unchanged.
 
-Download `StageMon-2027.1.4-Setup.exe` from the
+Download `StageMon-2027.1.6-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
@@ -406,11 +407,12 @@ Software tests are not hardware or physical-phone validation. Existing projects,
 settings and licensing are preserved.
 
 On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` into
-Applications. The runtime is included. macOS 12 is the declared minimum; native
-startup was verified on Apple Silicon from the DMG. The Intel package was cross-built on M2 and architecture-checked, not executed on Intel hardware. Packages are **ad-hoc
-signed, not Apple-notarized**, and may show a first-launch warning. Do not disable
+Applications. The runtime is included. macOS 12 is the declared minimum; read
+the unchanged Mac 2027.1.5 release for its qualification scope. No new native Mac
+test was performed in this Windows lot. Packages are **ad-hoc signed, not
+Apple-notarized**, and may show a first-launch warning. Do not disable
 Gatekeeper globally. Read the notes and checksum files attached to the
-[2027.1.3 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.3).
+[Mac 2027.1.5 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.5).
 
 Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
 starting audio remains explicit and requests microphone access. Keychain protects

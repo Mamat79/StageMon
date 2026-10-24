@@ -1,15 +1,15 @@
 {
-  "version": "2027.1.5",
-  "fileVersion": "2027.1.5.0",
+  "version": "2027.1.6",
+  "fileVersion": "2027.1.6.0",
   "platform": "windows-x64",
-  "sourceCommit": "79e90327d3a8e0e7bae22d7d5f0a62a35c954a36",
-  "buildRevision": "f10-20261019-001",
+  "sourceCommit": "78654729bd2ec8247de7c0447e188747ff71bdf5",
+  "buildRevision": "",
   "testsRunByBuild": false,
   "guideManifestSha256": "941D7E0511A3AFA0CAA97168BD8F9D63D57A67600407F88B9A2C7ADC89C2DD60",
   "installer": {
-    "name": "StageMon-2027.1.5-Setup.exe",
-    "bytes": 68125566,
-    "sha256": "05AE1443843961BC7E2645846B08E0D4CF1A02001B0190217962390367D8FDFD"
+    "name": "StageMon-2027.1.6-Setup.exe",
+    "bytes": 67884110,
+    "sha256": "CB6B73BFFEB194B3A8F5F9D11EDBC36B8FF811C3DB63E377D7ACFC7880D75CA7"
   },
   "installedPayload": [
     {
@@ -29,13 +29,13 @@
     },
     {
       "path": "docs/guides/StageMon-Guide-EN.pdf",
-      "bytes": 95147,
-      "sha256": "FE59C1204FFD7BB601530D962E1F4244D21BE42098601A465F0659B0748B1420"
+      "bytes": 95299,
+      "sha256": "AF4362F32C8C6A23934447458A22377F91F198F3D23C1465D9E12D13CA223C5E"
     },
     {
       "path": "docs/guides/StageMon-Guide-FR.pdf",
-      "bytes": 98632,
-      "sha256": "1795B03FEA6A7024BDB630B8B461EA1E44E470B1D3ED5F17EBB8026E78E5CF12"
+      "bytes": 98811,
+      "sha256": "93D0A3345E700DF0DF848FF8D69CF09618848C49F11747F21BC6597435F46994"
     },
     {
       "path": "docs/LIVE-FOLLOWING.md",
@@ -54,48 +54,58 @@
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.2-EN.md",
-      "bytes": 2261,
-      "sha256": "B9B377605AACA393E30311A62D78A6864A4384676A595D5B81C7768F35C34D39"
+      "bytes": 2279,
+      "sha256": "A265BA8F272EDB4B86C59A317F101899E45A29943ECF8217572533CB40B1D130"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.2-FR.md",
-      "bytes": 2598,
-      "sha256": "4166D806D4E9DFEAD1AB4CEDA209F2E6915727C4B4BF10B215CA5B50C25EED64"
+      "bytes": 2616,
+      "sha256": "49F356C775428A5BF125767ED88936CA5D3D01A20A6023D020B3BC77B6494B57"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.3-EN.md",
-      "bytes": 1031,
-      "sha256": "A52A53EB304C7F432DD600CA609E592541945A47F87A581302B8ED02055FFF8A"
+      "bytes": 1041,
+      "sha256": "1517C6514387843F6DCC4728EDA1234DECAAFF9F38D1D2DE9D3A934BC753C52A"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.3-FR.md",
-      "bytes": 1184,
-      "sha256": "7F7FCDEEAD4492875FC2430CEBA94EE16D9C0F47E66D53374FE911C272838734"
+      "bytes": 1194,
+      "sha256": "BF43D983CE1753DEDF9ECED69747DBF16FD3675FC07A0D4A916AAC5A467E9652"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.4-EN.md",
-      "bytes": 1474,
-      "sha256": "88669DB0ED0182A316B731536FE666B2023AFA4A40A49F074C7382C35B0499C4"
+      "bytes": 1499,
+      "sha256": "8F0213ABF1F17938C8E0EA0BFAFF10383A6FF9A8B2644A0B1C09FB7A3A32C525"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.4-FR.md",
-      "bytes": 1640,
-      "sha256": "33072ACD1015E4C8F1126914783BF8F9134836F285BC774894013F6D62C11DE0"
+      "bytes": 1667,
+      "sha256": "2363096064FF8DC754DF74E50F6E7A0840CDD12375EA2420D5CCC2ADBEC4A216"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.5-EN.md",
-      "bytes": 2082,
-      "sha256": "7FDE0C7111B1C016C0B76513D04A5B445C56A1F6EF0C7CF17BB4F889707265F7"
+      "bytes": 2114,
+      "sha256": "7C66AC132EFACD72D7E13964616FDC35A1456CF6A57519FCCAC4C759452DFD8B"
     },
     {
       "path": "docs/RELEASE-NOTES-2027.1.5-FR.md",
-      "bytes": 2331,
-      "sha256": "7F7C50B6E0BC54F9239505D231481566AD05E09D784585C75CAF335E3A400C95"
+      "bytes": 2366,
+      "sha256": "2896D4A3C238789D7990E74D44176DA10D36A439BCCF0E528148529A86C2031A"
     },
     {
-      "path": "docs/RELEASE-NOTES-2027.1.5.md",
-      "bytes": 631,
-      "sha256": "01EB52977020DAF022D105CC6C55AC79AED4C546BFFF17DB8A84235A0D9378A0"
+      "path": "docs/RELEASE-NOTES-2027.1.6-EN.md",
+      "bytes": 723,
+      "sha256": "E11F5A168E6DAA122AE63600A9E6FE46D4FCFB233AB936E7F752EE766792E73C"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.6-FR.md",
+      "bytes": 879,
+      "sha256": "F4130E267EBB4E6037AAB4208FEB4CABE40EFE25BB0340686B185556A7A83EB9"
+    },
+    {
+      "path": "docs/RELEASE-NOTES-2027.1.6.md",
+      "bytes": 1110,
+      "sha256": "6D73F0D0B198B0B8FD0DB869534ECC334EBEFF89D105A0B9A47765F6FB181C94"
     },
     {
       "path": "stage-monitoring.ico",
@@ -104,20 +114,25 @@
     },
     {
       "path": "StageMon.exe",
-      "bytes": 243007006,
-      "sha256": "006D39CC43E79FD90E220C8C5397AE282FD3269255DEE6BB488CC9398F09F54A"
+      "bytes": 243008030,
+      "sha256": "23E159E92A7037ACBA3AB660AD025007BAA9103F6618D652702870A1EDE61410"
     }
   ],
   "deliveryQualification": {
     "status": "passed",
-    "publicationPolicy": "native-accepted"
+    "publicationPolicy": "native-accepted",
+    "nativeScope": "fr-en-license-window-observed-current-user",
+    "behaviorEvidenceKind": "SYNTHETIC_EXECUTED_HARNESS",
+    "fullDpiQualified": false,
+    "physicalAudioValidated": false,
+    "limitations": "Real FR/EN license window, keyboard focus and normal close observed on the exact EXE after verified private C/D profile backups. Trial boundary, 5-second countdown, activation and offline behavior were exercised separately in synthetic harness and licensing tests; they are not claimed as native screenshots. Hardware audio, live network, phone and full DPI matrix remain unqualified."
   },
   "acceptedCandidate": {
-    "executableSha256": "006D39CC43E79FD90E220C8C5397AE282FD3269255DEE6BB488CC9398F09F54A",
-    "compiledFromBaseCommit": "1feb0b67c79246ab99610887740c2697fee64f8c",
-    "sourceInventorySha256": "CFCB949636847E2C1CE923EEC509CEEBDC193BD5CAC228B8CF588E5488EB58F8",
-    "cliReceiptSha256": "2F7ACE9490B05203FCD231F82D8FD893776A840E23290DA5201BCBB2E7016686",
-    "nativeReceiptSha256": "BA49862B26CBD3C32B771C60D71F51D5D6DAEC85576467444DF42351630070BD",
+    "executableSha256": "23E159E92A7037ACBA3AB660AD025007BAA9103F6618D652702870A1EDE61410",
+    "compiledFromBaseCommit": "55bebab95da8b1f90be0c62f8f8c4b5a8d6aecda",
+    "sourceInventorySha256": "57F32295D0EAC85627134664E694BA1568737183DAE27BAAE94813AB63C1237D",
+    "cliReceiptSha256": "8C71F8811AA93DE5BE70B06CB1EA20CDCAE68680C6B09247D9C2C7E35D7EAC4D",
+    "nativeReceiptSha256": "979C3E57C30B0805DAFCB6BA43E20723339363B4D82FDDB57C89E45002D37BC0",
     "nativeDpiScaleObserved": 1.0,
     "nativeDpiCheckDescription": "GetDpiForWindow read on the verified candidate main HWND; DPI=96, awareness=system-aware. PID, path, SHA, window ownership and start time checked before/after. No profile-DPI inference. One current window only; not a multi-DPI visual matrix.",
     "reusedWithoutRecompilation": true,
@@ -134,7 +149,8 @@
         "connections": 218,
         "remote-interop": 68,
         "local-interop": 26,
-        "shared-roundtrip": 18
+        "shared-roundtrip": 18,
+        "license-startup": 95
       },
       "physicalAudioValidated": false,
       "physicalNetworkValidated": false,

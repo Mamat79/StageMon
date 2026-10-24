@@ -1,16 +1,16 @@
 {
   "product": "StageMon",
-  "version": "2027.1.5",
-  "releaseTag": "v2027.1.5",
-  "productSourceCommit": "1feb0b67c79246ab99610887740c2697fee64f8c",
-  "packagingSourceCommit": "79e90327d3a8e0e7bae22d7d5f0a62a35c954a36",
+  "version": "2027.1.6",
+  "releaseTag": "v2027.1.6",
+  "productSourceCommit": "55bebab95da8b1f90be0c62f8f8c4b5a8d6aecda",
+  "packagingSourceCommit": "78654729bd2ec8247de7c0447e188747ff71bdf5",
   "windows": {
-    "version": "2027.1.5",
-    "fileVersion": "2027.1.5.0",
-    "installerSha256": "05AE1443843961BC7E2645846B08E0D4CF1A02001B0190217962390367D8FDFD",
-    "installerBytes": 68125566,
-    "executableSha256": "006D39CC43E79FD90E220C8C5397AE282FD3269255DEE6BB488CC9398F09F54A",
-    "downloadUrl": "https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-Setup.exe",
+    "version": "2027.1.6",
+    "fileVersion": "2027.1.6.0",
+    "installerSha256": "CB6B73BFFEB194B3A8F5F9D11EDBC36B8FF811C3DB63E377D7ACFC7880D75CA7",
+    "installerBytes": 67884110,
+    "executableSha256": "23E159E92A7037ACBA3AB660AD025007BAA9103F6618D652702870A1EDE61410",
+    "downloadUrl": "https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-Setup.exe",
     "softwareAcceptance": {
       "unitTestExecutions": 438,
       "unitTestRuns": 5,
@@ -21,7 +21,8 @@
         "connections": 218,
         "remote-interop": 68,
         "local-interop": 26,
-        "shared-roundtrip": 18
+        "shared-roundtrip": 18,
+        "license-startup": 95
       },
       "physicalAudioValidated": false,
       "physicalNetworkValidated": false,
@@ -29,9 +30,14 @@
     },
     "nativeAcceptance": {
       "status": "passed",
-      "publicationPolicy": "native-accepted"
+      "publicationPolicy": "native-accepted",
+      "nativeScope": "fr-en-license-window-observed-current-user",
+      "behaviorEvidenceKind": "SYNTHETIC_EXECUTED_HARNESS",
+      "fullDpiQualified": false,
+      "physicalAudioValidated": false,
+      "limitations": "Real FR/EN license window, keyboard focus and normal close observed on the exact EXE after verified private C/D profile backups. Trial boundary, 5-second countdown, activation and offline behavior were exercised separately in synthetic harness and licensing tests; they are not claimed as native screenshots. Hardware audio, live network, phone and full DPI matrix remain unqualified."
     },
-    "intermittentTwoSelector": "Reported intermittent selector stuck at 2 was not reproduced and is not claimed fixed.",
+    "intermittentTwoSelector": "Not assessed in this Windows-only maintenance lot.",
     "physicalAudioValidated": false,
     "physicalNetworkValidated": false,
     "physicalPhoneValidated": false
@@ -76,13 +82,13 @@
     },
     {
       "name": "release-manifest.json",
-      "bytes": 5325,
-      "sha256": "F359E71226FC15293C859C5ECE8F67EBA340C9EA37593B14269E239876E4DB30"
+      "bytes": 6289,
+      "sha256": "D40E9D64A1E19F228F12CFA5454DA569D62250F57B822C91688E96F2C20EEDE2"
     },
     {
-      "name": "RELEASE-NOTES-2027.1.5.md",
-      "bytes": 2957,
-      "sha256": "20CAFB676E55A9714F46D522050ED737F3CA3C29BD75793FD9CE7C2DAFD727C0"
+      "name": "RELEASE-NOTES-2027.1.6.md",
+      "bytes": 1110,
+      "sha256": "6D73F0D0B198B0B8FD0DB869534ECC334EBEFF89D105A0B9A47765F6FB181C94"
     },
     {
       "name": "SiLeMIO-Suite-Guide-EN.pdf",
@@ -90,24 +96,24 @@
       "sha256": "63B52A0CE2C8D03DC6E8A0333D06A5A91EEE534A4FEB0DBA6E8EAD1F19724B93"
     },
     {
-      "name": "StageMon-2027.1.5-Setup.exe",
-      "bytes": 68125566,
-      "sha256": "05AE1443843961BC7E2645846B08E0D4CF1A02001B0190217962390367D8FDFD"
+      "name": "StageMon-2027.1.6-Setup.exe",
+      "bytes": 67884110,
+      "sha256": "CB6B73BFFEB194B3A8F5F9D11EDBC36B8FF811C3DB63E377D7ACFC7880D75CA7"
     },
     {
-      "name": "StageMon-2027.1.5-Setup.exe.sha256",
+      "name": "StageMon-2027.1.6-Setup.exe.sha256",
       "bytes": 95,
-      "sha256": "EEEE0584A043E39EB0676ECE7985CE798ED8025FFD08DEC990FC9B0797127410"
+      "sha256": "817F01760275990C183A79A758B0A38E50370697D7CCADF5B61A358314E43116"
     },
     {
       "name": "StageMon-Guide-EN.pdf",
-      "bytes": 95147,
-      "sha256": "FE59C1204FFD7BB601530D962E1F4244D21BE42098601A465F0659B0748B1420"
+      "bytes": 95299,
+      "sha256": "AF4362F32C8C6A23934447458A22377F91F198F3D23C1465D9E12D13CA223C5E"
     },
     {
       "name": "StageMon-Guide-FR.pdf",
-      "bytes": 98632,
-      "sha256": "1795B03FEA6A7024BDB630B8B461EA1E44E470B1D3ED5F17EBB8026E78E5CF12"
+      "bytes": 98811,
+      "sha256": "93D0A3345E700DF0DF848FF8D69CF09618848C49F11747F21BC6597435F46994"
     }
   ]
 }
