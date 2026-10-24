@@ -23,3 +23,5 @@ RELEASE-NOTES-2027.0.2.md -text
 SHA256SUMS.txt -text
 qa/** -text
 *.jpg binary
+# Keep the reviewed 2027.1.6 notes identical to the release asset.
+RELEASE-NOTES-2027.1.6.md -text
