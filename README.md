@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-Setup.exe"><strong>Windows x64 · 2027.1.6</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.5</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.5/StageMon-2027.1.5-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.5</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.6</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.6</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.1.6** et **macOS 2027.1.5**.
-La livraison Windows clarifie l'utilisation gratuite et la licence facultative ;
-les paquets Mac restent ceux de leur release 2027.1.5, sans modification.
+Versions actuelles : **Windows 2027.1.6** et **macOS 2027.1.6**.
+Les deux plateformes clarifient l'utilisation gratuite et la licence facultative,
+avec des qualifications distinctes. Les paquets Windows existants sont conservés.
 [Nouveautés Windows 2027.1.6](RELEASE-NOTES-2027.1.6.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
@@ -50,6 +50,17 @@ de tests unitaires, 1 022 assertions CLI et 10 scénarios de navigateur automati
 Cela ne qualifie pas une matrice complète de résolutions, une carte audio, un
 réseau ou un téléphone réels. Aucun nouveau paquet ou essai natif Mac n'est
 inclus dans ce lot Windows.
+
+### Livraison macOS 2027.1.6
+
+326 tests ciblés ont réussi ; l'application Apple Silicon a été ouverte puis
+fermée depuis le DMG monté en lecture seule, avec contrôles du Trousseau de test.
+Intel est cross-compilé et contrôlé structurellement, sans essai Intel natif.
+Ces contrôles ne sont pas une recette visuelle complète, une activation commerciale
+ou une qualification audio, téléphone ou réseau réels. macOS 14 ou ultérieur
+est requis ; signature ad hoc, sans Developer ID ni notarisation.
+[Notes Mac FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/RELEASE-NOTES-2027.1.6-MAC-FR.md) ·
+[Mac notes EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/RELEASE-NOTES-2027.1.6-MAC-EN.md).
 
 ### Historique 2027.1.0
 
@@ -291,13 +302,13 @@ disponibles pour retour arrière.
 
 Téléchargez le DMG **AppleSilicon** pour un Mac Apple Silicon ou **Intel** pour
 un Mac Intel, puis glissez `StageMon.app` dans Applications. Le runtime est inclus.
-Le minimum déclaré est macOS 12. Consultez la release Mac 2027.1.5 pour son
-périmètre de validation ; aucun nouvel essai natif Mac n'a été réalisé dans le
-lot Windows 2027.1.6.
+Le minimum déclaré est macOS 14. Les contrôles Apple Silicon depuis le DMG et
+les inspections structurelles Intel sont détaillés dans les notes Mac 2027.1.6 ;
+ils ne constituent pas une qualification visuelle ou matérielle complète.
 
 Les applications sont signées **ad hoc**, sans Developer ID ni notarisation Apple.
 Un avertissement peut donc apparaître à la première ouverture. Ne désactivez
-pas Gatekeeper globalement. Consultez les [notes et empreintes de la release Mac 2027.1.5](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.5).
+pas Gatekeeper globalement. Consultez les [notes et empreintes de la release Mac 2027.1.6](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.6).
 
 Le démarrage audio reste volontaire et demande l'accès au microphone. Vérifiez
 les niveaux et les sorties physiques avant de démarrer. Le Trousseau protège
@@ -318,17 +329,19 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **Windows 2027.1.6**, **macOS Apple Silicon 2027.1.5** and
-**macOS Intel 2027.1.5**. This Windows update clarifies free use and the optional
+Current downloads: **Windows 2027.1.6**, **macOS Apple Silicon 2027.1.6** and
+**macOS Intel 2027.1.6**. Both platforms clarify free use and the optional
 permanent license. Choose **CONTINUE** without a code or online activation.
 Dismiss the reminder immediately during the first 30 days; afterwards, wait
 five seconds at launch, with no feature limits or end of free use. An optional
-permanent license removes the reminder and wait. Mac packages are unchanged.
+permanent license removes the reminder and wait. Existing Windows packages are preserved.
 The exact Windows EXE's French and English license windows and keyboard access
 were observed at 96 DPI. The executed software checks comprise 438 unit-test
 executions, 1,022 CLI assertions and 10 automated browser scenarios. These do
-not qualify physical audio, a phone, a show network or a full DPI matrix. No new
-native Mac qualification is claimed. Images retained above belong to the
+not qualify physical audio, a phone, a show network or a full DPI matrix. Mac
+qualification is separate: 326 targeted tests, Apple Silicon launch from the read-only
+DMG and structural Intel checks. It is not full visual acceptance, native Intel
+execution, commercial activation or physical audio/phone/network qualification. Images retained above belong to the
 initial Windows delivery. See the
 [Windows release notes](RELEASE-NOTES-2027.1.6.md) and
 [platform/control scope](qa/PLATFORM-CONTROL-SCOPE-2027.md).
@@ -407,12 +420,12 @@ Software tests are not hardware or physical-phone validation. Existing projects,
 settings and licensing are preserved.
 
 On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` into
-Applications. The runtime is included. macOS 12 is the declared minimum; read
-the unchanged Mac 2027.1.5 release for its qualification scope. No new native Mac
-test was performed in this Windows lot. Packages are **ad-hoc signed, not
+Applications. The runtime is included. macOS 14 is the declared minimum. Read
+the separate Mac 2027.1.6 notes for Apple Silicon checks, cross-built Intel and
+their explicit limitations. Packages are **ad-hoc signed, not
 Apple-notarized**, and may show a first-launch warning. Do not disable
 Gatekeeper globally. Read the notes and checksum files attached to the
-[Mac 2027.1.5 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.5).
+[Mac 2027.1.6 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.6).
 
 Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
 starting audio remains explicit and requests microphone access. Keychain protects
