@@ -10,15 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-Setup.exe"><strong>Windows x64 · 2027.1.6</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-Setup.exe"><strong>Windows x64 · 2027.1.7</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.6</strong></a> ·
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.6</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.1.6** et **macOS 2027.1.6**.
+Versions actuelles : **Windows 2027.1.7** et **macOS 2027.1.6**.
 Les deux plateformes clarifient l'utilisation gratuite et la licence facultative,
 avec des qualifications distinctes. Les paquets Windows existants sont conservés.
-[Nouveautés Windows 2027.1.6](RELEASE-NOTES-2027.1.6.md) ·
+[Nouveautés Windows 2027.1.7](RELEASE-NOTES-2027.1.7-FR.md) · [English](RELEASE-NOTES-2027.1.7-EN.md) · [Qualification Windows](QUALIFICATION-WINDOWS-2027.1.7.md) ·
 [Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
 [Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
 [StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
@@ -34,7 +34,13 @@ avec des qualifications distinctes. Les paquets Windows existants sont conservé
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
-### Nouveautés Windows 2027.1.6
+### Nouveautés Windows 2027.1.7
+
+La disposition Direction B regroupe les commandes A/B au-dessus des sources et la configuration audio dans un panneau contextuel. Les dialogues sombres ont un contraste corrigé. La licence, le moteur et les formats restent inchangés. Installation et conservation des données vérifiées ; contrôles natifs à 96 DPI, sans audio ni LIVE. Les guides Windows 2027.1.6 et suite 2027.3 sont réutilisés avec leur contexte historique ; les notes et la qualification ci-dessus décrivent cette version. **Mac reste en 2027.1.6.**
+
+Direction B groups A/B controls above sources and audio configuration in a contextual panel, with corrected dark-dialog contrast. Licensing, engine and formats are unchanged. Windows installation/data preservation passed; native checks at 96 DPI with audio/LIVE stopped. Existing Windows 2027.1.6 and suite 2027.3 guides retain their historical context; current notes/qualification describe this version. **Mac stays at 2027.1.6.**
+
+### Historique Windows 2027.1.6
 
 L'application explique dès l'ouverture que toutes les fonctions restent
 utilisables gratuitement, sans code de licence ni activation en ligne : choisissez
@@ -282,7 +288,7 @@ StageMon.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2027.1.6-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2027.1.7-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -411,7 +417,7 @@ removes the reminder and wait. If you received a code, activate it from the
 application within your licence's installation limit. Commercial terms are
 unchanged.
 
-Download `StageMon-2027.1.6-Setup.exe` from the
+Download `StageMon-2027.1.7-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
