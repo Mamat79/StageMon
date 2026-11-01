@@ -11,11 +11,11 @@
 
 <p align="center">
   <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-Setup.exe"><strong>Windows x64 · 2027.1.7</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.6</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/StageMon-2027.1.6-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.6</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.7</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.7</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.1.7** et **macOS 2027.1.6**.
+Versions actuelles : **Windows 2027.1.7** et **macOS 2027.1.7**.
 Les deux plateformes clarifient l'utilisation gratuite et la licence facultative,
 avec des qualifications distinctes. Les paquets Windows existants sont conservés.
 [Nouveautés Windows 2027.1.7](RELEASE-NOTES-2027.1.7-FR.md) · [English](RELEASE-NOTES-2027.1.7-EN.md) · [Qualification Windows](QUALIFICATION-WINDOWS-2027.1.7.md) ·
@@ -36,9 +36,9 @@ avec des qualifications distinctes. Les paquets Windows existants sont conservé
 
 ### Nouveautés Windows 2027.1.7
 
-La disposition Direction B regroupe les commandes A/B au-dessus des sources et la configuration audio dans un panneau contextuel. Les dialogues sombres ont un contraste corrigé. La licence, le moteur et les formats restent inchangés. Installation et conservation des données vérifiées ; contrôles natifs à 96 DPI, sans audio ni LIVE. Les guides Windows 2027.1.6 et suite 2027.3 sont réutilisés avec leur contexte historique ; les notes et la qualification ci-dessus décrivent cette version. **Mac reste en 2027.1.6.**
+La disposition Direction B regroupe les commandes A/B au-dessus des sources et la configuration audio dans un panneau contextuel. Les dialogues sombres ont un contraste corrigé. La licence, le moteur et les formats restent inchangés. Installation et conservation des données vérifiées ; contrôles natifs à 96 DPI, sans audio ni LIVE. Les guides Windows 2027.1.6 et suite 2027.3 sont réutilisés avec leur contexte historique ; les notes et la qualification ci-dessus décrivent cette version. **Mac 2027.1.7 est disponible avec sa qualification distincte ci-dessous.**
 
-Direction B groups A/B controls above sources and audio configuration in a contextual panel, with corrected dark-dialog contrast. Licensing, engine and formats are unchanged. Windows installation/data preservation passed; native checks at 96 DPI with audio/LIVE stopped. Existing Windows 2027.1.6 and suite 2027.3 guides retain their historical context; current notes/qualification describe this version. **Mac stays at 2027.1.6.**
+Direction B groups A/B controls above sources and audio configuration in a contextual panel, with corrected dark-dialog contrast. Licensing, engine and formats are unchanged. Windows installation/data preservation passed; native checks at 96 DPI with audio/LIVE stopped. Existing Windows 2027.1.6 and suite 2027.3 guides retain their historical context; current notes/qualification describe this version. **Mac 2027.1.7 is available with its separate qualification below.**
 
 ### Historique Windows 2027.1.6
 
@@ -57,7 +57,17 @@ Cela ne qualifie pas une matrice complète de résolutions, une carte audio, un
 réseau ou un téléphone réels. Aucun nouveau paquet ou essai natif Mac n'est
 inclus dans ce lot Windows.
 
-### Livraison macOS 2027.1.6
+### Livraison macOS 2027.1.7 — 1er novembre 2026
+
+[Notes Mac FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/RELEASE-NOTES-2027.1.7-MAC-FR.md) · [Mac notes EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/RELEASE-NOTES-2027.1.7-MAC-EN.md).
+
+Les deux DMG Apple Silicon et Intel sont vérifiés. Le paquet Apple Silicon monté en lecture seule a passé les contrôles de lancement et de fermeture normaux, de l'éditeur de retours, de mute et de plafond. Le paquet Intel est compilé et inspecté structurellement ; il n'a pas été exécuté sur Intel ni sous Rosetta. Les rapports donnent 326 tests ciblés réussis et 106 assertions de composants, dont 89 contrôles distincts. Les quatre guides déjà publics correspondent aux guides réellement embarqués et ont été téléchargés à nouveau pour contrôle d'intégrité ; aucun guide n'a été remplacé.
+
+Minimum macOS 14 déclaré, sans matrice d'exécution des anciens macOS. L'absence d'écran capturable sur le runner limite la validation visuelle. Aucun essai audio matériel, téléphone/LAN réel ou activation commerciale ; pas de Developer ID ni de notarisation. Windows et les anciennes releases sont conservés.
+
+Apple Silicon passed read-only DMG application launch/normal close and monitor-editor/mute/ceiling checks. Intel is cross-built and structurally checked only, without Intel or Rosetta execution. Reported scope: 326 targeted tests and 106 component assertions covering 89 distinct checks. The four existing public guides match the packaged guides and their complete downloads were verified without replacing them. macOS 14 minimum is declared; older-OS runtime, full visual, hardware audio, real phone/LAN or commercial activation acceptance is not claimed. No Developer ID signature or notarization.
+
+### Historique macOS 2027.1.6
 
 326 tests ciblés ont réussi ; l'application Apple Silicon a été ouverte puis
 fermée depuis le DMG monté en lecture seule, avec contrôles du Trousseau de test.
@@ -335,8 +345,9 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **Windows 2027.1.6**, **macOS Apple Silicon 2027.1.6** and
-**macOS Intel 2027.1.6**. Both platforms clarify free use and the optional
+Current downloads: **Windows 2027.1.7**, **macOS Apple Silicon 2027.1.7** and **macOS Intel 2027.1.7**. See the current Mac notes linked above and [Windows 2027.1.7 notes](RELEASE-NOTES-2027.1.7-EN.md).
+
+Historical release context: **Windows 2027.1.6 and macOS 2027.1.6**. Both platforms clarify free use and the optional
 permanent license. Choose **CONTINUE** without a code or online activation.
 Dismiss the reminder immediately during the first 30 days; afterwards, wait
 five seconds at launch, with no feature limits or end of free use. An optional
