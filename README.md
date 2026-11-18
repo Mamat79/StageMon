@@ -10,20 +10,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-Setup.exe"><strong>Windows x64 · 2027.1.7</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.7</strong></a> ·
-  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.7/StageMon-2027.1.7-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.7</strong></a>
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/StageMon-2027.1.8-Setup.exe"><strong>Windows x64 · 2027.1.8</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/StageMon-2027.1.8-macOS-AppleSilicon.dmg"><strong>Mac Apple Silicon · 2027.1.8</strong></a> ·
+  <a href="https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/StageMon-2027.1.8-macOS-Intel.dmg"><strong>Mac Intel · 2027.1.8</strong></a>
 </p>
 
-Versions actuelles : **Windows 2027.1.7** et **macOS 2027.1.7**.
-Les deux plateformes clarifient l'utilisation gratuite et la licence facultative,
-avec des qualifications distinctes. Les paquets Windows existants sont conservés.
-[Nouveautés Windows 2027.1.7](RELEASE-NOTES-2027.1.7-FR.md) · [English](RELEASE-NOTES-2027.1.7-EN.md) · [Qualification Windows](QUALIFICATION-WINDOWS-2027.1.7.md) ·
-[Périmètre exact par plateforme](qa/PLATFORM-CONTROL-SCOPE-2027.md) ·
-[Guide StageMon FR](guides/StageMon-Guide-FR.pdf) ·
-[StageMon guide EN](guides/StageMon-Guide-EN.pdf) ·
-[Guide PDF français](guides/Guide-Suite-SiLeMIO-FR.pdf) ·
-[English PDF guide](guides/SiLeMIO-Suite-Guide-EN.pdf).
+Version actuelle : **2027.1.8 sous Windows et macOS**. [Téléchargements et sommes SHA-256](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.8).
+
+[Windows FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/RELEASE-NOTES-2027.1.8-FR.md) · [Windows EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/RELEASE-NOTES-2027.1.8-EN.md) · [macOS FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/RELEASE-NOTES-2027.1.8-MAC-FR.md) · [macOS EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/RELEASE-NOTES-2027.1.8-MAC-EN.md) · [Qualification Windows](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/QUALIFICATION-WINDOWS-2027.1.8.md) · [Qualification macOS](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/QUALIFICATION-MACOS-2027.1.8.md)
+
+[Guide StageMon FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/StageMon-Guide-FR.pdf) · [StageMon guide EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/StageMon-Guide-EN.pdf) · [Guide de la suite FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/Guide-Suite-SiLeMIO-FR.pdf) · [Suite guide EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/SiLeMIO-Suite-Guide-EN.pdf)
 
 <p align="center">
   <img src="media/StageMon-2027.0.2-Windows-fr-dark.jpg" width="1000" alt="StageMon Windows 2027.0.2 : matrice CUE, bandeau commun et deux monitors, thème sombre"><br>
@@ -34,11 +30,11 @@ avec des qualifications distinctes. Les paquets Windows existants sont conservé
 [Dark EN](media/StageMon-2027.0.2-Windows-en-dark.jpg) ·
 [Light EN](media/StageMon-2027.0.2-Windows-en-light.jpg).
 
-### Nouveautés Windows 2027.1.7
+### Historique Windows 2027.1.7
 
-La disposition Direction B regroupe les commandes A/B au-dessus des sources et la configuration audio dans un panneau contextuel. Les dialogues sombres ont un contraste corrigé. La licence, le moteur et les formats restent inchangés. Installation et conservation des données vérifiées ; contrôles natifs à 96 DPI, sans audio ni LIVE. Les guides Windows 2027.1.6 et suite 2027.3 sont réutilisés avec leur contexte historique ; les notes et la qualification ci-dessus décrivent cette version. **Mac 2027.1.7 est disponible avec sa qualification distincte ci-dessous.**
+La disposition Direction B regroupe les commandes A/B au-dessus des sources et la configuration audio dans un panneau contextuel. Les dialogues sombres ont un contraste corrigé. La licence, le moteur et les formats restent inchangés. Installation et conservation des données vérifiées ; contrôles natifs à 96 DPI, sans audio ni LIVE. Les guides Windows 2027.1.6 et suite 2027.3 sont réutilisés avec leur contexte historique ; les notes et la qualification de la 2027.1.7 décrivent cette version. **Mac 2027.1.7 est disponible avec sa qualification distincte ci-dessous.**
 
-Direction B groups A/B controls above sources and audio configuration in a contextual panel, with corrected dark-dialog contrast. Licensing, engine and formats are unchanged. Windows installation/data preservation passed; native checks at 96 DPI with audio/LIVE stopped. Existing Windows 2027.1.6 and suite 2027.3 guides retain their historical context; current notes/qualification describe this version. **Mac 2027.1.7 is available with its separate qualification below.**
+Direction B groups A/B controls above sources and audio configuration in a contextual panel, with corrected dark-dialog contrast. Licensing, engine and formats are unchanged. Windows installation/data preservation passed; native checks at 96 DPI with audio/LIVE stopped. Existing Windows 2027.1.6 and suite 2027.3 guides retain their historical context; the 2027.1.7 notes and qualification describe that release. **Mac 2027.1.7 is available with its separate qualification below.**
 
 ### Historique Windows 2027.1.6
 
@@ -75,7 +71,7 @@ Intel est cross-compilé et contrôlé structurellement, sans essai Intel natif.
 Ces contrôles ne sont pas une recette visuelle complète, une activation commerciale
 ou une qualification audio, téléphone ou réseau réels. macOS 14 ou ultérieur
 est requis ; signature ad hoc, sans Developer ID ni notarisation.
-Notes Mac 2027.1.6 FR et EN conservées dans les archives de cette livraison historique ; les notes de la version actuelle sont liées dans la section macOS 2027.1.7 ci-dessus. / The 2027.1.6 Mac notes are archived historical records; use the current 2027.1.7 notes linked above.
+Notes Mac 2027.1.6 FR et EN conservées dans les archives de cette livraison historique ; les notes de la version actuelle sont liées en haut de cette page. / The 2027.1.6 Mac notes are archived; current notes are linked at the top of this page.
 
 ### Historique 2027.1.0
 
@@ -281,23 +277,13 @@ StageMon, Dante Config Editor et AutoCAD :
 - signature SiLeMIO · By Mamat----[]--- ;
 - informations de projet et d’état visibles sans masquer la matrice.
 
-## Utilisation gratuite et licence facultative
+## Essai et licence
 
-StageMon reste entièrement utilisable gratuitement, sans code de licence ni
-activation en ligne. Choisissez **CONTINUER**. Le rappel se ferme immédiatement
-pendant les 30 premiers jours ; ensuite, il attend cinq secondes au lancement,
-sans fin d'usage ni limitation des fonctions. La licence permanente facultative
-de soutien à **49 € TTC** supprime le rappel et l'attente. Si vous disposez d'un
-code, son activation reste possible depuis l'application, dans la limite des
-installations autorisées par votre licence. Les conditions commerciales sont
-inchangées.
-
-StageFlow reste entièrement gratuit et n’est jamais nécessaire pour utiliser
-StageMon.
+StageMon offre **30 jours d’essai complet**. Après ce délai, une licence est requise au prochain démarrage. Une session déjà ouverte peut se poursuivre jusqu’à sa fermeture. La licence permanente coûte **49 € TTC**. La première activation nécessite Internet. La vérification peut ensuite se faire hors ligne.
 
 ## Installation Windows
 
-1. Téléchargez `StageMon-2027.1.7-Setup.exe` et son fichier `.sha256` depuis la
+1. Téléchargez `StageMon-2027.1.8-Setup.exe` et son fichier `.sha256` depuis la
    [dernière release](https://github.com/Mamat79/StageMon/releases/latest).
 2. Fermez une éventuelle ancienne instance de StageMon.
 3. Lancez l’installeur et conservez les options proposées.
@@ -318,12 +304,12 @@ disponibles pour retour arrière.
 Téléchargez le DMG **AppleSilicon** pour un Mac Apple Silicon ou **Intel** pour
 un Mac Intel, puis glissez `StageMon.app` dans Applications. Le runtime est inclus.
 Le minimum déclaré est macOS 14. Les contrôles Apple Silicon depuis le DMG et
-les inspections structurelles Intel sont détaillés dans les notes Mac 2027.1.7 ;
+les inspections structurelles Intel sont détaillés dans les notes Mac 2027.1.8 ;
 ils ne constituent pas une qualification visuelle ou matérielle complète.
 
 Les applications sont signées **ad hoc**, sans Developer ID ni notarisation Apple.
 Un avertissement peut donc apparaître à la première ouverture. Ne désactivez
-pas Gatekeeper globalement. Consultez les [notes et empreintes de la release Mac 2027.1.7](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.7).
+pas Gatekeeper globalement. Consultez les [notes et empreintes de la release 2027.1.8](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.8).
 
 Le démarrage audio reste volontaire et demande l'accès au microphone. Vérifiez
 les niveaux et les sorties physiques avant de démarrer. Le Trousseau protège
@@ -344,7 +330,9 @@ HF. Le suivi EW-DX est en lecture seule et doit être validé avec le récepteur
 fast source verification. It brings up to 256 inputs, two independent monitors
 by default, optionally up to six, and multiple patches into one clear interface.
 
-Current downloads: **Windows 2027.1.7**, **macOS Apple Silicon 2027.1.7** and **macOS Intel 2027.1.7**. See the current Mac notes linked above and [Windows 2027.1.7 notes](RELEASE-NOTES-2027.1.7-EN.md).
+Current downloads: **2027.1.8** for Windows x64, macOS Apple Silicon and macOS Intel. See the [Windows EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/RELEASE-NOTES-2027.1.8-EN.md) and [macOS EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.8/RELEASE-NOTES-2027.1.8-MAC-EN.md) release notes.
+
+
 
 Historical release context: **Windows 2027.1.6 and macOS 2027.1.6**. Both platforms clarify free use and the optional
 permanent license. Choose **CONTINUE** without a code or online activation.
@@ -419,15 +407,9 @@ full StageMon remote in the unified QR portal.
 
 ### Price and installation
 
-StageMon remains fully usable for free, without a license code or online
-activation. Choose **CONTINUE**. For the first 30 days, dismiss the startup
-reminder immediately; afterwards, wait five seconds, with no feature limits or
-end of free use. The optional **€49 VAT-included perpetual supporter licence**
-removes the reminder and wait. If you received a code, activate it from the
-application within your licence's installation limit. Commercial terms are
-unchanged.
+StageMon includes a **30-day full trial**. After the trial, a licence is required the next time you start StageMon. A session already open can continue until you close it. The perpetual licence costs **€49 including VAT**. Initial activation requires an internet connection. Licence checks can then run offline.
 
-Download `StageMon-2027.1.7-Setup.exe` from the
+Download `StageMon-2027.1.8-Setup.exe` from the
 [latest release](https://github.com/Mamat79/StageMon/releases/latest), close any
 running StageMon instance, install it, then open **StageMon v2027** from the
 desktop shortcut. Configure the application while stopped, then qualify your real
@@ -437,11 +419,11 @@ settings and licensing are preserved.
 
 On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` into
 Applications. The runtime is included. macOS 14 is the declared minimum. Read
-the separate Mac 2027.1.7 notes for Apple Silicon checks, cross-built Intel and
+the separate Mac 2027.1.8 notes for Apple Silicon checks, cross-built Intel and
 their explicit limitations. Packages are **ad-hoc signed, not
 Apple-notarized**, and may show a first-launch warning. Do not disable
 Gatekeeper globally. Read the notes and checksum files attached to the
-[Mac 2027.1.7 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.7).
+[2027.1.8 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.8).
 
 Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
 starting audio remains explicit and requests microphone access. Keychain protects
