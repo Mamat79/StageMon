@@ -75,8 +75,7 @@ Intel est cross-compilé et contrôlé structurellement, sans essai Intel natif.
 Ces contrôles ne sont pas une recette visuelle complète, une activation commerciale
 ou une qualification audio, téléphone ou réseau réels. macOS 14 ou ultérieur
 est requis ; signature ad hoc, sans Developer ID ni notarisation.
-[Notes Mac FR](https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/RELEASE-NOTES-2027.1.6-MAC-FR.md) ·
-[Mac notes EN](https://github.com/Mamat79/StageMon/releases/download/v2027.1.6/RELEASE-NOTES-2027.1.6-MAC-EN.md).
+Notes Mac 2027.1.6 FR et EN conservées dans les archives de cette livraison historique ; les notes de la version actuelle sont liées dans la section macOS 2027.1.7 ci-dessus. / The 2027.1.6 Mac notes are archived historical records; use the current 2027.1.7 notes linked above.
 
 ### Historique 2027.1.0
 
@@ -319,12 +318,12 @@ disponibles pour retour arrière.
 Téléchargez le DMG **AppleSilicon** pour un Mac Apple Silicon ou **Intel** pour
 un Mac Intel, puis glissez `StageMon.app` dans Applications. Le runtime est inclus.
 Le minimum déclaré est macOS 14. Les contrôles Apple Silicon depuis le DMG et
-les inspections structurelles Intel sont détaillés dans les notes Mac 2027.1.6 ;
+les inspections structurelles Intel sont détaillés dans les notes Mac 2027.1.7 ;
 ils ne constituent pas une qualification visuelle ou matérielle complète.
 
 Les applications sont signées **ad hoc**, sans Developer ID ni notarisation Apple.
 Un avertissement peut donc apparaître à la première ouverture. Ne désactivez
-pas Gatekeeper globalement. Consultez les [notes et empreintes de la release Mac 2027.1.6](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.6).
+pas Gatekeeper globalement. Consultez les [notes et empreintes de la release Mac 2027.1.7](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.7).
 
 Le démarrage audio reste volontaire et demande l'accès au microphone. Vérifiez
 les niveaux et les sorties physiques avant de démarrer. Le Trousseau protège
@@ -438,11 +437,11 @@ settings and licensing are preserved.
 
 On Mac, choose the **AppleSilicon** or **Intel** DMG and drag `StageMon.app` into
 Applications. The runtime is included. macOS 14 is the declared minimum. Read
-the separate Mac 2027.1.6 notes for Apple Silicon checks, cross-built Intel and
+the separate Mac 2027.1.7 notes for Apple Silicon checks, cross-built Intel and
 their explicit limitations. Packages are **ad-hoc signed, not
 Apple-notarized**, and may show a first-launch warning. Do not disable
 Gatekeeper globally. Read the notes and checksum files attached to the
-[Mac 2027.1.6 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.6).
+[Mac 2027.1.7 release](https://github.com/Mamat79/StageMon/releases/tag/v2027.1.7).
 
 Mac audio uses a duplex CoreAudio device or a previously configured aggregate;
 starting audio remains explicit and requests microphone access. Keychain protects
@@ -452,3 +451,4 @@ private key. Real audio/HF devices and show networks still need on-site validati
 ---
 
 © 2026 SiLeMIO — By Mamat----[]---. Proprietary software.
+
